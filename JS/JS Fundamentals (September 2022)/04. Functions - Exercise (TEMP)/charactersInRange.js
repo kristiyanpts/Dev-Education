@@ -4,7 +4,13 @@ function Main(fChar, sChar) {
         chars.push(String.fromCharCode(i));
     }
 
+    if (!chars[0]) {
+        for (let i = sChar.charCodeAt(0) + 1; i < fChar.charCodeAt(0); i++) {
+            chars.push(String.fromCharCode(i));
+        }
+    }
+
     console.log(chars.join(" "));
 }
 
-Main('#', ':')
+Main('C', '#')
