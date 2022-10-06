@@ -4,7 +4,7 @@ function Main(pass) {
         console.log("Password must be between 6 and 10 characters");
         passIsValid = false;
     }
-    if (!/^[A-Za-z0-9]*$/.test(pass)) {
+    if (/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/.test(pass)) {
         console.log("Password must consist only of letters and digits");
         passIsValid = false;
     }
@@ -15,7 +15,7 @@ function Main(pass) {
         }
     }
     if (digitsCount < 2) {
-        console.log("Passowrd must have at least 2 digits");
+        console.log("Password must have at least 2 digits");
         passIsValid = false;
     }
 
