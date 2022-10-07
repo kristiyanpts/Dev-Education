@@ -49,17 +49,17 @@ function CheckShit(elementId) {
             }
             break;
         case 'fperc':
-            document.getElementById("main-inner-progressbar-f").style.width = alegedColor || 0 + "%";
+            document.getElementById("main-inner-progressbar-f").style.width = (alegedColor || 0) + "%";
             const obj1 = document.getElementById("main-inner-progressbar-f-t");
             animateValue(obj1, parseInt(document.getElementById("main-inner-progressbar-t-t").innerHTML), alegedColor, 500);
             break;
         case 'sperc':
-            document.getElementById("main-inner-progressbar-s").style.width = alegedColor || 0 + "%";
+            document.getElementById("main-inner-progressbar-s").style.width = (alegedColor || 0) + "%";
             const obj2 = document.getElementById("main-inner-progressbar-s-t");
             animateValue(obj2, parseInt(document.getElementById("main-inner-progressbar-t-t").innerHTML), alegedColor, 500);
             break;
         case 'tperc':
-            document.getElementById("main-inner-progressbar-t").style.width = alegedColor || 0 + "%";
+            document.getElementById("main-inner-progressbar-t").style.width = (alegedColor || 0) + "%";
             const obj = document.getElementById("main-inner-progressbar-t-t");
             animateValue(obj, parseInt(document.getElementById("main-inner-progressbar-t-t").innerHTML), alegedColor, 500);
             break;
