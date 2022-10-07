@@ -122,3 +122,65 @@ body {
     margin-left: 61.3%;
     margin-top: 320px;
 }
+
+.top-menu-settings {
+    position: absolute; 
+    right: 30px;
+    top: 10px; 
+    font-size: 20px; 
+    transition: 0.5s;
+}
+
+.top-menu-settings:hover {
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+
+.settings {
+    position: absolute;
+    width: 50vh;
+    height: 30vh;
+    background-color: #d49024;
+    border-radius: 10px;
+    right: 10px;
+    transition: 0.5;
+}
+
+.settings-titles {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.settings-items {
+    width: 30%;
+    margin-left: 10%;
+    height: 3vh;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-top: 1vh;
+    float: left;
+}
+
+.settings-items-options {
+    width: 10%;
+    margin-left: 10%;
+    height: 3vh;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-top: 1vh;
+    float: left;
+}
+
+input[type = "text"] {
+    width: 11vh;
+    height: 3vh;
+    color: white;
+    background-color: #d49024;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+}
