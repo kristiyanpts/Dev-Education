@@ -17,3 +17,18 @@ document.getElementById("about-page").addEventListener("click", function() {
 document.getElementById("contact-page").addEventListener("click", function() {
     window.location.replace("../MySite/contact.html");
 });
+
+function CheckShit(elementId) {
+    let alegedColor = document.getElementById(elementId).value;
+
+    switch (elementId) {
+        case 'bcolor':
+            document.body.style.backgroundColor = alegedColor;
+            break;
+        case 'bscolor':
+            document.getElementById("settings").style.backgroundColor = alegedColor;
+            break;
+        default:
+            break;
+    }
+}
