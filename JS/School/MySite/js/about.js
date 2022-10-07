@@ -4,13 +4,13 @@ document.getElementById("my-work").addEventListener("click", function() {
 
 document.getElementById("home-page").addEventListener("click", function() {
     console.log("vlizam");
-    window.location.replace("../home.html");
+    window.location.replace("../MySite/home.html");
 });
 
 document.getElementById("about-page").addEventListener("click", function() {
-    window.location.replace("../about.html");
+    window.location.replace("../MySite/about.html");
 });
 
 document.getElementById("contact-page").addEventListener("click", function() {
-    window.location.replace("../contact.html");
+    window.location.replace("../MySite/contact.html");
 });
