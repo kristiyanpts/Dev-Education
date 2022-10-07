@@ -1,0 +1,124 @@
+body {
+    background-color: #7d5007;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+.top-menu {
+    /* position: absolute; */
+    margin-left: 32%;
+    width: 45%;
+    height: 50px;
+    color: #d49024;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.top-menu-option {
+    transition: 0.5s;
+    float: left;
+    margin-left: 90px;
+}
+
+.top-menu-option:hover {
+    transition: 0.5s;
+    color: #b37110;
+    transform: scale(1.2);
+}
+
+.top-menu-header {
+    font-size: 20px;
+    position: absolute;
+    margin-left: -200px;
+}
+
+.me-time {
+    height: 500px;
+}
+
+.me-time-text {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 20%;
+    color: #d49024;
+    margin-top: 150px;
+}
+
+.me-time-button {
+    position: relative;
+    width: 175px;
+    height: 45px;
+    margin-left: 385px;
+    margin-top: 360px;
+    border: 3px solid #d49024;
+    background: transparent;
+    color: #d49024;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.me-time-button:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.main-info {
+    height: 700px;
+}
+
+.main-info-text {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 20%;
+    color: white;
+    margin-top: 150px;
+}
+
+.main-info-text-info {
+    position: absolute;
+    font-size: 15px;
+    margin-left: 20%;
+    color: white;
+    margin-top: 300px;
+}
+
+.main-info-progressbars {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 300px;
+    width: 450px;
+    height: 300px;
+    transition: 0.5s;
+}
+
+.main-progressbar {
+    width: 400px;
+    height: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 55px;
+    transition: 0.5s;
+}
+
+.main-inner-progressbar {
+    height: 15px;
+    background-color: #d49024;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.main-info-progressbars-text {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin-left: 61.3%;
+    margin-top: 320px;
+}
