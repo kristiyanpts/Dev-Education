@@ -126,3 +126,55 @@ function topFunction() {
 //   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 window.scrollTo({top: 0, behavior: 'smooth'});
 }
+
+function ChangePosition() {
+    if (getRandomInt(1, 10) <= 8) {
+        let el = document.getElementById("kris");
+        el.style.marginLeft = getRandomInt(200, 600) + "px";
+        el.style.marginTop = getRandomInt(200, 600) + "px";
+    }
+}
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+}
+
+function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    let d = today.getDate();
+    let year = today.getFullYear();
+    let month = today.toLocaleString('default', { month: 'long' });
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('clock').innerHTML =  d + " " + month + " " + year + " | " + h + ":" + m; // + ":" + s;
+    setTimeout(startTime, 1000);
+}
+  
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+
+let seconds = 0;
+function DoSomethingCool() {
+    document.body.style.backgroundColor = `rgb(${getRandomInt(1, 255)}, ${getRandomInt(1, 255)}, ${getRandomInt(1, 255)})`
+    let num = getRandomInt(1, 3);
+    console.log(num);
+    if (num == 1) {
+        window.scrollTo({top: document.body.scrollTop + 20, behavior: 'smooth'});
+    } else {
+        window.scrollTo({top: document.body.scrollTop - 20, behavior: 'smooth'});
+    }
+    seconds++;
+    if (seconds == 60) {
+        seconds = 0;
+        document.body.style.backgroundColor = "";
+        return;
+    }
+    setTimeout(DoSomethingCool, 1000);
+}

@@ -140,7 +140,7 @@ body {
 .settings {
     position: absolute;
     width: 50vh;
-    height: 57vh;
+    height: 60vh;
     background-color: #d49024;
     border-radius: 10px;
     right: 10px;
@@ -225,5 +225,10 @@ input[type = "text"] {
     color: white;
     font-size: 20px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
+    bottom: 10px;
+}
+
+#kris {
+    transition: 0.15s;
 }
