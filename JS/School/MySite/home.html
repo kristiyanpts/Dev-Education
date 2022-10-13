@@ -11,11 +11,15 @@
     <div class = "top-menu">
       <div class = "top-menu-header" id = "kris" onmouseover = "ChangePosition()" onclick = "DoSomethingCool()"><i>KRIS.</i></div>
       <div class = "top-menu-option" id = "home-page">Home</div>
-      <div class = "top-menu-option" id = "my-work">My Work</div>
+      <div class = "top-menu-option" id = "my-work" onmouseover = "OpenDropDownMenu()" onmouseleave = "CloseDropDownMenu()">My Work</div>
       <div class = "top-menu-option" id = "about-page">About</div>
       <div class = "top-menu-option" id = "contact-page">Contact</div>
       <div class = "top-menu-settings" onclick = "ToggleSettings()"><i class="fa-solid fa-gear"></i></div>
       <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    </div>
+    <div class = "mywork-dropdown-menu" id = "mywork-dropdown-menu" onmouseover = "ChangeOpacity(true)" onmouseleave = "ChangeOpacity(false)">
+      <div class = "mywork-item" onclick = "OpenLink('https://github.com/KrisDevBG/IT-Career/tree/main/C%23/Competitions/National%20C%23%20Competition%20Bulgaria%202022')">C# Winner</div><hr style="width: 90%;">
+      <div class = "mywork-item" onclick = "OpenLink('https://github.com/KrisDevBG')">GitHub Work</div>
     </div>
     <div class = "settings" id = "settings">
       <div class = "settings-titles">Color Settings</div>
@@ -42,7 +46,7 @@
     </div>
     <div class = "main-info">
       <p class = "main-info-text">I'm a passionate learning developer, focused on web developing.<br>I am currently learning mainly JS combined with other languages.</p>
-      <div class = "main-info-text-info">Some other information to be added :P</div>
+      <div class = "main-info-text-info">Currently I am taking a Javascript Fundamentals Course at SoftUni, which will continue until the end of this year. After that with the new year comming, I will begin the next course of the path - JS Advanced, for 8 weeks. Also I am studying OOP, MySQL, Software Engineering. I am currently also looking for a beginners job as a C# Junior Dev or a Mid/Regular Dev.</div>
       <div class = "main-info-progressbars">
         <div class = "main-progressbar"><div class = "main-inner-progressbar" id = "main-inner-progressbar-f" style="width: 85%;"></div></div>
         <div class = "main-progressbar"><div class = "main-inner-progressbar" id = "main-inner-progressbar-s" style="width: 60%;"></div></div>
@@ -55,7 +59,10 @@
       <div class = "main-info-progressbars-text" style="margin-top: 460px;">Front-End</div>
       <div class = "main-info-progressbars-text" id = "main-inner-progressbar-t-t" style="margin-top: 460px; margin-left: 80%; transition: 0.5s;">70%</div>
     </div>
-    <div class = "reserved-rights">© All rights reserved. Kristiyan Petsanov <div id = "clock">12 October 21:05</div> </div>
+    <div class = "reserved-rights">© All rights reserved. Kristiyan Petsanov <div id = "clock">12 October 21:05</div></div>
+    <div class = "my-links">
+      <div onclick = "OpenLink('https://github.com/KrisDevBG')" style = "float: left;"><i class="fa-brands fa-github"></i> GitHub</div><div onclick = "OpenLink('https://www.linkedin.com/in/kristiyan-petsanov-82ba23252/')" style = "float: left; margin-left: 1vh;"><i class="fa-brands fa-linkedin"></i> LinkedIn</div><div onclick = "OpenLink('https://www.instagram.com/kristiqnpetsanov/')" style = "float: left; margin-left: 1vh;"><i class="fa-brands fa-instagram"></i> Instagram</div>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>

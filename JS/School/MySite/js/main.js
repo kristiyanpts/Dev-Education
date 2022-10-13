@@ -18,6 +18,10 @@ document.getElementById("contact-page").addEventListener("click", function() {
     window.location.replace("../MySite/contact.html");
 });
 
+function OpenLink(link) {
+    window.open(link);
+}
+
 function CheckShit(elementId) {
     let alegedColor = document.getElementById(elementId).value;
 
@@ -177,4 +181,23 @@ function DoSomethingCool() {
         return;
     }
     setTimeout(DoSomethingCool, 1000);
+}
+
+function OpenDropDownMenu() {
+    let element = document.getElementById("mywork-dropdown-menu");
+    element.style.display = "block";
+}
+
+function CloseDropDownMenu() {
+    let element = document.getElementById("mywork-dropdown-menu");
+    element.style.display = "none";
+}
+
+function ChangeOpacity(value) {
+    let element = document.getElementById("mywork-dropdown-menu");
+    if (value) {
+        element.style.display = "block";
+    } else {
+        element.style.display = "none";
+    }
 }
