@@ -8,11 +8,12 @@ body {
     user-select: none;
     font-family: 'Reem Kufi Ink', sans-serif;
     transition: 1s;
+    color: white;
 }
 
 .top-menu {
     /* position: absolute; */
-    margin-left: 32%;
+    margin-left: 36%;
     width: 45%;
     height: 50px;
     color: #d49024;
@@ -221,13 +222,14 @@ input[type = "text"] {
 }
 
 .reserved-rights {
-    width: 100%;
+    position: relative;
+    width: 99%;
     height: 60px;
     color: white;
     font-size: 20px;
     text-align: center;
     padding-top: 10px;
-    bottom: 10px;
+    bottom: 0;
 }
 
 #kris {
@@ -270,4 +272,20 @@ input[type = "text"] {
     height: 20px;
     float: none;
     margin-left: 43%;
+}
+
+.about-me {
+    position: absolute;
+    width: 35vh;
+    height: 35vh;
+    margin-left: 45vh;
+    margin-top: 2vh;
+}
+
+.details {
+    position: absolute;
+    width: 35vh;
+    height: 35vh;
+    margin-left: 125vh;
+    margin-top: 2vh;
 }

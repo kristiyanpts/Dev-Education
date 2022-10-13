@@ -11,9 +11,9 @@ document.getElementById("about-page").addEventListener("click", function() {
     window.location.replace("../MySite/about.html");
 });
 
-document.getElementById("contact-page").addEventListener("click", function() {
-    window.location.replace("../MySite/contact.html");
-});
+function OpenLink(link) {
+    window.open(link);
+}
 
 function CheckShit(elementId) {
     let alegedColor = document.getElementById(elementId).value;
@@ -103,3 +103,94 @@ function ToggleSettings() {
         settingsShown = true;
     }
 }
+
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.opacity = 1;
+  } else {
+    mybutton.style.opacity = 0;
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+//   document.body.scrollTop = 0; // For Safari
+//   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function ChangePosition() {
+    if (getRandomInt(1, 10) <= 8) {
+        let el = document.getElementById("kris");
+        el.style.marginLeft = getRandomInt(200, 600) + "px";
+        el.style.marginTop = getRandomInt(200, 600) + "px";
+    }
+}
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+}
+
+function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    let d = today.getDate();
+    let year = today.getFullYear();
+    let month = today.toLocaleString('default', { month: 'long' });
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('clock').innerHTML =  d + " " + month + " " + year + " | " + h + ":" + m; // + ":" + s;
+    setTimeout(startTime, 1000);
+}
+  
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+
+let seconds = 0;
+function DoSomethingCool() {
+    document.body.style.backgroundColor = `rgb(${getRandomInt(1, 255)}, ${getRandomInt(1, 255)}, ${getRandomInt(1, 255)})`
+    let num = getRandomInt(1, 3);
+    console.log(num);
+    if (num == 1) {
+        window.scrollTo({top: document.body.scrollTop + 20, behavior: 'smooth'});
+    } else {
+        window.scrollTo({top: document.body.scrollTop - 20, behavior: 'smooth'});
+    }
+    seconds++;
+    if (seconds == 60) {
+        seconds = 0;
+        document.body.style.backgroundColor = "";
+        return;
+    }
+    setTimeout(DoSomethingCool, 1000);
+}
+
+// function OpenDropDownMenu() {
+//     let element = document.getElementById("mywork-dropdown-menu");
+//     element.style.display = "block";
+// }
+
+// function CloseDropDownMenu() {
+//     let element = document.getElementById("mywork-dropdown-menu");
+//     element.style.display = "none";
+// }
+
+// function ChangeOpacity(value) {
+//     let element = document.getElementById("mywork-dropdown-menu");
+//     if (value) {
+//         element.style.display = "block";
+//     } else {
+//         element.style.display = "none";
+//     }
+// }

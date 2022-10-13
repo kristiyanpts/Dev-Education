@@ -14,10 +14,6 @@ document.getElementById("about-page").addEventListener("click", function() {
     window.location.replace("../MySite/about.html");
 });
 
-document.getElementById("contact-page").addEventListener("click", function() {
-    window.location.replace("../MySite/contact.html");
-});
-
 function OpenLink(link) {
     window.open(link);
 }
@@ -183,21 +179,21 @@ function DoSomethingCool() {
     setTimeout(DoSomethingCool, 1000);
 }
 
-function OpenDropDownMenu() {
-    let element = document.getElementById("mywork-dropdown-menu");
-    element.style.display = "block";
-}
+// function OpenDropDownMenu() {
+//     let element = document.getElementById("mywork-dropdown-menu");
+//     element.style.display = "block";
+// }
 
-function CloseDropDownMenu() {
-    let element = document.getElementById("mywork-dropdown-menu");
-    element.style.display = "none";
-}
+// function CloseDropDownMenu() {
+//     let element = document.getElementById("mywork-dropdown-menu");
+//     element.style.display = "none";
+// }
 
-function ChangeOpacity(value) {
-    let element = document.getElementById("mywork-dropdown-menu");
-    if (value) {
-        element.style.display = "block";
-    } else {
-        element.style.display = "none";
-    }
-}
+// function ChangeOpacity(value) {
+//     let element = document.getElementById("mywork-dropdown-menu");
+//     if (value) {
+//         element.style.display = "block";
+//     } else {
+//         element.style.display = "none";
+//     }
+// }
