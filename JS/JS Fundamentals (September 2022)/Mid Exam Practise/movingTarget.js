@@ -19,7 +19,6 @@ function Main(Input) {
                 break;
             case "Add":
                 if (targets[index]) {
-                    // targets[index] = shit;
                     targets.splice(index, 0, shit);
                 } else {
                     console.log("Invalid placement!");
