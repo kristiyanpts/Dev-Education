@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class = "container">
+        <input type="text" id="main-input" name="main-input">
+        <div class = "buttons-calc">
+            <div class = "button-option">%</div>
+            <div class = "button-option">CE</div>
+            <div class = "button-option">C</div>
+            <div class = "button-option"><i class="fa-solid fa-delete-left"></i></div>
+            <div class = "button-option">1/x</div>
+            <div class = "button-option">x2</div>
+            <div class = "button-option">√x</div>
+            <div class = "button-option" onclick = "OperationClicked('/')">/</div>
+            <div class = "button-option">7</div>
+            <div class = "button-option">8</div>
+            <div class = "button-option">9</div>
+            <div class = "button-option" onclick = "OperationClicked('*')">*</div>
+            <div class = "button-option">4</div>
+            <div class = "button-option">5</div>
+            <div class = "button-option">6</div>
+            <div class = "button-option" onclick = "OperationClicked('-')">-</div>
+            <div class = "button-option">1</div>
+            <div class = "button-option">2</div>
+            <div class = "button-option">3</div>
+            <div class = "button-option" onclick = "OperationClicked('+')">+</div>
+            <div class = "button-option">+/-</div>
+            <div class = "button-option">0</div>
+            <div class = "button-option">.</div>
+            <div class = "button-option">=</div>
+        </div>
+    </div>
+    <script src = "calculator.js"></script>
+</body>
+</html>

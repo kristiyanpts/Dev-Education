@@ -1,0 +1,50 @@
+body {
+    background-color: #7d5007;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    transition: 1s;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    width: 80vh;
+    height: 48vh;
+    top: 20%;
+    left: 35%;
+    border: 1px solid black;
+}
+
+#main-input {
+    width: 50%;
+    height: 7vh;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    text-align: right;
+    background-color: #7d5007;
+    color: white;
+}
+
+.buttons-calc {
+    width: 62%;
+    height: 91%;
+}
+
+.button-option {
+    width: 9vh;
+    height: 5vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    float: left;
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
