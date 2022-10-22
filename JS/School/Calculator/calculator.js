@@ -103,8 +103,9 @@ function CalculateEverything() {
     }
     numbers = [];
     document.getElementById("main-input").value = outputNum;
+    console.log(document.getElementById("calc-history").innerHTML.length);
     if (document.getElementById("calc-history").innerHTML.length > 0) {
-        document.getElementById("calc-history").innerHTML = document.getElementById("calc-history").innerHTML + "<br>" + outputHistory + " = " + outputNum;
+        document.getElementById("calc-history").innerHTML = document.getElementById("calc-history").innerHTML + "  " + outputHistory + " = " + outputNum;
     } else {
         document.getElementById("calc-history").innerHTML = outputHistory + " = " + outputNum;
     }
