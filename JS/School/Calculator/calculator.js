@@ -179,3 +179,18 @@ function Notify(text, time, color) {
         document.getElementById("alert").style.opacity = 0;
     }, time)
 }
+
+let currentPage = "History";
+
+function SwitchPage(page, button) {
+    HideOtherPages();
+    document.getElementById(button).style.backgroundColor = "rgba(255, 255, 255, 0.2)";
+    document.getElementById(page).style.display = "block";
+}
+
+function HideOtherPages() {
+    document.getElementById('calc-history').style.display = "none";
+    document.getElementById('calc-settings').style.display = "none";
+    document.getElementById('history-button').style.backgroundColor = "rgba(255, 255, 255, 0.1)";
+    document.getElementById('settings-button').style.backgroundColor = "rgba(255, 255, 255, 0.1)";
+}

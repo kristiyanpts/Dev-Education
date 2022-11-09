@@ -38,7 +38,14 @@
             <div class = "button-option" onclick = "ClickedNumber('.')">.</div>
             <div class = "button-option" onclick = "OperationClicked('=')">=</div>
         </div>
+        <dic class = "calc-options" id = "calc-options">
+            <div class = "calc-option" onclick = "SwitchPage('calc-history', 'history-button')" id = "history-button"><i class="fa-solid fa-arrow-rotate-left"></i></div>
+            <div class = "calc-option" onclick = "SwitchPage('calc-settings', 'settings-button')" id = "settings-button"><i class="fa-solid fa-gear"></i></div>
+        </dic>
         <div class = "calc-history" id = "calc-history">
+            <h4 align = center>History</h4>
+        </div>
+        <div class = "calc-settings" id = "calc-settings">
             <h4 align = center>History</h4>
         </div>
         <div class="alert" id = "alert">
