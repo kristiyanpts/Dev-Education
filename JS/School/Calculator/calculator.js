@@ -48,6 +48,7 @@ function CalculateEverything() {
     let outputNum = 0;
     let outputHistory = "";
     let tempNum = 0;
+    let noshit = false;
     console.log(numbers);
     for (let i = 0; i < numbers.length; i += 2) {
         if (i % 2 === 0) {
@@ -61,7 +62,7 @@ function CalculateEverything() {
                         outputHistory = outputHistory !== "" ? + " + " : "" + tempNum;
                         break;
                     case "-":
-                        outputNum = outputNum - tempNum > 0 ? tempNum : -tempNum;
+                        outputNum = outputNum - tempNum > 0 ? tempNum : tempNum;
                         outputHistory = outputHistory !== "" ? + " - " : "" + tempNum;
                         break;
                     case "*":
@@ -73,6 +74,7 @@ function CalculateEverything() {
                         outputHistory = outputHistory !== "" ? + " / " : "" + tempNum;
                         break;
                     default:
+                        noshit = true;
                         Notify("Something went wrong...", 2000, "red")
                         break;
                 }
@@ -83,6 +85,7 @@ function CalculateEverything() {
                         outputHistory = outputHistory + " + " + tempNum;
                         break;
                     case "-":
+                        console.log(outputNum - tempNum);
                         outputNum = outputNum - tempNum;
                         outputHistory = outputHistory + " - " + tempNum;
                         break;
@@ -96,18 +99,21 @@ function CalculateEverything() {
                         break;
                     default:
                         Notify("Something went wrong...", 2000, "red")
+                        noshit = true;
                         break;
                 }
             }
         }
     }
-    numbers = [];
-    document.getElementById("main-input").value = outputNum;
-    console.log(document.getElementById("calc-history").innerHTML.length);
-    if (document.getElementById("calc-history").innerHTML.length > 0) {
-        document.getElementById("calc-history").innerHTML = document.getElementById("calc-history").innerHTML + "  " + outputHistory + " = " + outputNum;
-    } else {
-        document.getElementById("calc-history").innerHTML = outputHistory + " = " + outputNum;
+    if (!noshit) {
+        numbers = [];
+        document.getElementById("main-input").value = outputNum;
+        console.log(document.getElementById("calc-history").innerHTML.length);
+        let child = document.createElement('div');
+        child.setAttribute("class", "calc-history-item");
+        let date = new Date();
+        child.innerHTML = outputHistory + " = " + outputNum + " | " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+        document.getElementById("actual-history").appendChild(child);
     }
 }
 
@@ -191,6 +197,31 @@ function SwitchPage(page, button) {
 function HideOtherPages() {
     document.getElementById('calc-history').style.display = "none";
     document.getElementById('calc-settings').style.display = "none";
+    document.getElementById('info-settings').style.display = "none";
     document.getElementById('history-button').style.backgroundColor = "rgba(255, 255, 255, 0.1)";
     document.getElementById('settings-button').style.backgroundColor = "rgba(255, 255, 255, 0.1)";
+    document.getElementById('info-button').style.backgroundColor = "rgba(255, 255, 255, 0.1)";
+}
+
+function CheckShit(elementId) {
+    let alegedColor = document.getElementById(elementId).value;
+
+    switch (elementId) {
+        case 'bcolor':
+            document.body.style.backgroundColor = alegedColor;
+            break;
+        case 'tcolor':
+            var all = document.getElementsByTagName("*");
+            for (var i=0, max=all.length; i < max; i++) {
+                all[i].style.transition = "0.5s";
+                all[i].style.color = alegedColor;
+            }
+            break;
+        default:
+            break;
+    }
+}
+
+function ClearHistory() {
+    document.getElementById('actual-history').innerHTML = "";
 }

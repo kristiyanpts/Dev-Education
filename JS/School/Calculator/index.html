@@ -39,14 +39,28 @@
             <div class = "button-option" onclick = "OperationClicked('=')">=</div>
         </div>
         <dic class = "calc-options" id = "calc-options">
-            <div class = "calc-option" onclick = "SwitchPage('calc-history', 'history-button')" id = "history-button"><i class="fa-solid fa-arrow-rotate-left"></i></div>
+            <div class = "calc-option" style = "background-color: rgba(255, 255, 255, 0.2);" onclick = "SwitchPage('calc-history', 'history-button')" id = "history-button"><i class="fa-solid fa-arrow-rotate-left"></i></div>
             <div class = "calc-option" onclick = "SwitchPage('calc-settings', 'settings-button')" id = "settings-button"><i class="fa-solid fa-gear"></i></div>
+            <div class = "calc-option" onclick = "SwitchPage('info-settings', 'info-button')" id = "info-button"><i class="fa-solid fa-circle-info"></i></div>
         </dic>
+        <div class = "info-settings" id = "info-settings">
+            <div class = "settings-titles">Information</div>
+            <div class = "settings-text">This is a simple calculator I made to test myself and my skills. There could be bugs, if you find any I'd appreciate you reporting it. Have a nice day!</div>
+            <br><div class = "report-button" onclick="window.open('https://www.linkedin.com/in/kristiyan-petsanov-82ba23252/')">Report a problem</div>
+        </div>
         <div class = "calc-history" id = "calc-history">
-            <h4 align = center>History</h4>
+            <div class = "settings-titles">History</div>
+            <div class = "actual-history" id = "actual-history">
+
+            </div>
+            <div class = "clear-button" onclick="ClearHistory()">Clear History</div>
         </div>
         <div class = "calc-settings" id = "calc-settings">
-            <h4 align = center>History</h4>
+            <div class = "settings-titles">Settings</div>
+            <div class = "settings-items">Background: </div>
+            <div class = "settings-items-options"><input onkeyup = "CheckShit('bcolor')" type="text" id="bcolor" name="bcolor"></div>
+            <div class = "settings-items">Text: </div>
+            <div class = "settings-items-options"><input onkeyup = "CheckShit('tcolor')" type="text" id="tcolor" name="tcolor"></div>
         </div>
         <div class="alert" id = "alert">
             <!-- <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> -->
