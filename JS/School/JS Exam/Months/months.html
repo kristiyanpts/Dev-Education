@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <title>Months</title>
+</head>
+<style>
+    body {
+        background-color: #7d5007;
+        color: white;
+        font-family: 'Reem Kufi Ink', sans-serif;
+        font-size: 20px;
+    }
+    .container {
+        position: absolute;
+        width: 60vh;
+        height: 50vh;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4vh;
+        align-items: center;
+    }
+    input[type=text] {
+        width: 80%;
+        height: 4vh;
+        font-size: 20px;
+        outline: none;
+        background-color: #7d5007;
+        border: none;
+        color: white;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+        transition: 0.5;
+    }
+    input[type=text]:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+    .button-calculate {
+        width: 80%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        height: 4vh;
+        padding-top: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .button-calculate:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+</style>
+<body>
+    <div class = "container">
+        <label for="monthIndex">Въведи индекс на месец:</label>
+        <input type="text" id="monthIndex" name="monthIndex">
+        <div class = "button-calculate" onclick = "Calculate()">Намери месец</div>
+        <label for="result">Резултат:</label>
+        <input type="text" id="result" name="result" disabled>
+    </div>
+    <script src = "months.js"></script>
+</body>
+</html>
