@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
-    <title>Rectangle</title>
+    <title>Interval</title>
 </head>
 <style>
     body {
@@ -18,7 +18,7 @@
     .container {
         position: absolute;
         width: 60vh;
-        height: 60vh;
+        height: 80vh;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
@@ -61,14 +61,16 @@
 </style>
 <body>
     <div class = "container">
-        <label for="a">Дължината "а":</label>
-        <input type="text" id="a" name="a">
-        <label for="b">Широчината "b":</label>
-        <input type="text" id="b" name="b">
-        <div class = "button-calculate" onclick = "Calculate()">Сметни</div>
+        <label for="min">Минимална граница:</label>
+        <input type="text" id="min" name="min">
+        <label for="max">Максимална граница:</label>
+        <input type="text" id="max" name="max"> 
+        <label for="searchingFor">Търсено число:</label>
+        <input type="text" id="searchingFor" name="searchingFor"> 
+        <div class = "button-calculate" onclick = "Calculate()">Търси число</div>
         <label for="result">Резултат:</label>
         <input type="text" id="result" name="result" disabled>
     </div>
-    <script src = "rectangle.js"></script>
+    <script src = "interval.js"></script>
 </body>
 </html>

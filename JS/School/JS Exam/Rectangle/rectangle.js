@@ -1,6 +1,6 @@
 function Calculate() {
     let a = Number(document.getElementById("a").value);
-    let b = (document.getElementById("b").value);
+    let b = Number(document.getElementById("b").value);
 
     if (!Number.isNaN(a) && !Number.isNaN(b)) {
         let area = a * b;
