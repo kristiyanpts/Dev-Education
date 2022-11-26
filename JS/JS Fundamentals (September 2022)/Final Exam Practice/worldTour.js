@@ -17,7 +17,10 @@ function Main(Input) {
                 console.log(stops);
                 break;
             case "Switch":
-                stops = stops.replace(commandInfo[1], commandInfo[2]);
+                while(stops.includes(commandInfo[1])){
+                    let splitted = stops.split(commandInfo[1]);
+                    stops = splitted.join(commandInfo[2]);
+                }
                 console.log(stops);
                 break;
             default:
@@ -30,7 +33,7 @@ function Main(Input) {
     console.log(`Ready for world tour! Planned stops: ${stops}`);
 }
 
-Main(["Hawai::Cyprys-Greece",
+Main(["Hawai::Cyprys-Greece:Hawai:Hawai:Hawai",
 "Add Stop:7:Rome",
 "Remove Stop:11:16",
 "Switch:Hawai:Bulgaria",
