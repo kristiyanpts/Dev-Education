@@ -29,21 +29,30 @@
     <div id="wrapper"></div>
 
     <script>
-      function fromJSONToHTMLTable(input) {
-        let table = document.createElement("table");
-        let object = JSON.parse(input[0]);
+      function fromJSONToHTMLTable(string) {
+        let output = [];
+        output.push("<table>");
+        let object = JSON.parse(string);
 
-        for (const student of object) {
-          let thTable = Object.keys(student);
-          let tdTable = Object.entries(student);
+        let keys = Object.keys(object[0]);
+        output.push(`<tr>${keys.map((e) => `<th>${e}</th>`).join("")}</tr>`);
+
+        for (const value of object) {
+          output.push(
+            `<tr>${keys.map((e) => `<td>${value[e]}</td>`).join("")}</tr>`
+          );
         }
+
+        output.push("</table>");
+
+        return output.join("\n");
       }
 
       window.onload = function () {
         let container = document.getElementById("wrapper");
 
         container.innerHTML = fromJSONToHTMLTable([
-          `[{"Name":"Stamat", "Score":5.5}, {"Name":"Rumen", "Score":6}]`,
+          '[{"Name":"Stamat","Price":5.5},{"Name":"Rumen","Price":6}]',
         ]);
       };
     </script>
