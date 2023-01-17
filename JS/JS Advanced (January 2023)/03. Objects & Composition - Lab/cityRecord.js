@@ -4,7 +4,7 @@ function Main(name, population, treasury) {
     population: population,
     treasury: treasury,
   };
-  console.log(city);
+  return city;
 }
 
 Main(
