@@ -1,3 +1,5 @@
 function subtract() {
-    console.log('TODO:...');
+  document.getElementById("result").innerText =
+    Number(document.getElementById("firstNumber").value) -
+    Number(document.getElementById("secondNumber").value);
 }
