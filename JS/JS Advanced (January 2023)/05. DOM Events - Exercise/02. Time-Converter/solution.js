@@ -18,7 +18,6 @@ function attachEventsListeners() {
   });
 
   function ConvertTime(time, timeType) {
-    console.log("vlizam");
     let days, hours, minutes, seconds;
     switch (timeType) {
       case "day":
