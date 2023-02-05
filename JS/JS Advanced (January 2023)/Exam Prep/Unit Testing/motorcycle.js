@@ -92,15 +92,80 @@ describe("Tests ", function () {
       );
     });
     it("returns error string when the argument given is different then the above - B", function () {
-      expect(motorcycleRider.licenseRestriction("B")).to.equal(
+      expect(motorcycleRider.licenseRestriction.bind("B")).to.throw(
         "Invalid Information!"
       );
     });
     it("returns error string when the argument given is different then the above - B1", function () {
-      expect(motorcycleRider.licenseRestriction("B1")).to.equal(
+      expect(motorcycleRider.licenseRestriction.bind("B1")).to.throw(
         "Invalid Information!"
       );
     });
   });
-  // TODO: …
+  describe("motorcycleShowroom ", function () {
+    it(`returns given string when the arguments given are (["125", "250", "600"]) and 1000`, function () {
+      expect(
+        motorcycleRider.motorcycleShowroom(["125", "250", "600"], 1000)
+      ).to.equal("There are 3 available motorcycles matching your criteria!");
+    });
+    it(`returns given string when the arguments given are (["125", "250", "600", "49", "50"]) and 1000`, function () {
+      expect(
+        motorcycleRider.motorcycleShowroom(
+          ["125", "250", "600", "49", "50"],
+          1000
+        )
+      ).to.equal("There are 4 available motorcycles matching your criteria!");
+    });
+    it("returns error string when the arguments given are not an array and number - object", function () {
+      expect(
+        motorcycleRider.motorcycleShowroom.bind([1, 2, 3], {
+          maximumEngineVolume: 100,
+        })
+      ).to.throw("Invalid Information!");
+    });
+    it("returns error string when the arguments given are not an array and number - string", function () {
+      expect(motorcycleRider.motorcycleShowroom.bind("123", 100)).to.throw(
+        "Invalid Information!"
+      );
+    });
+    it("returns error string when the array argument is empty", function () {
+      expect(motorcycleRider.motorcycleShowroom.bind([], 100)).to.throw(
+        "Invalid Information!"
+      );
+    });
+    it("returns error string when the number argument is less than 50", function () {
+      expect(motorcycleRider.motorcycleShowroom.bind([1, 2, 3], 49)).to.throw(
+        "Invalid Information!"
+      );
+    });
+  });
+  describe("otherSpendings ", function () {
+    it("returns error string when the arguments given are not an array, array and boolean - first argument", function () {
+      expect(
+        motorcycleRider.otherSpendings.bind(
+          "helmet, jacked",
+          ["engine oil", "oil filter"],
+          true
+        )
+      ).to.throw("Invalid Information!");
+    });
+    it("returns error string when the arguments given are not an array, array and boolean - second argument", function () {
+      expect(
+        motorcycleRider.otherSpendings.bind(
+          ["helmet", "jacked"],
+          "engine oil, oil filter",
+          true
+        )
+      ).to.throw("Invalid Information!");
+    });
+    it("returns error string when the arguments given are not an array, array and boolean - third argument", function () {
+      expect(
+        motorcycleRider.otherSpendings.bind(
+          ["helmet", "jacked"],
+          ["engine oil", "oil filter"],
+          "true"
+        )
+      ).to.throw("Invalid Information!");
+    });
+  });
 });
