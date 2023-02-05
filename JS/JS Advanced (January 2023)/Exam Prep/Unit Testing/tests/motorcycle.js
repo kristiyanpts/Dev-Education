@@ -140,6 +140,26 @@ describe("Tests ", function () {
     });
   });
   describe("otherSpendings ", function () {
+    it(`returns 600 when the arguments given are ["helmet", "jacked"], ["engine oil", "oil filter"] and discount is false`, function () {
+      expect(
+        motorcycleRider.otherSpendings(
+          ["helmet", "jacked"],
+          ["engine oil", "oil filter"],
+          false
+        )
+      ).to.equal("You spend $600.00 for equipment and consumables!");
+    });
+    it(`returns 600 when the arguments given are ["helmet", "jacked"], ["engine oil", "oil filter"] and discount is true`, function () {
+      expect(
+        motorcycleRider.otherSpendings(
+          ["helmet", "jacked"],
+          ["engine oil", "oil filter"],
+          true
+        )
+      ).to.equal(
+        "You spend $540.00 for equipment and consumables with 10% discount!"
+      );
+    });
     it("returns error string when the arguments given are not an array, array and boolean - first argument", function () {
       expect(
         motorcycleRider.otherSpendings.bind(
