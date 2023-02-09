@@ -1,5 +1,5 @@
 (function solve() {
-  String.prototype.ensureStart = (str) => {
+  String.prototype.ensureStart = function (str) {
     let starts = true;
     for (let i = 0; i < str.length; i++) {
       if (this[i] !== str[i]) {
@@ -7,13 +7,13 @@
       }
     }
     if (starts) {
-      return this;
+      return `${this}`;
     } else {
       return `${str} ` + this;
     }
   };
 
-  String.prototype.ensureEnd = (str) => {
+  String.prototype.ensureEnd = function (str) {
     let ends = true;
     for (let i = this.length - 1; i > str.length; i--) {
       if (this[i] !== str[i]) {
@@ -27,48 +27,29 @@
     }
   };
 
-  String.prototype.isEmpty = () => {
+  String.prototype.isEmpty = function () {
     if (this.length === 0) return true;
     return false;
   };
 
-  String.prototype.truncate = (n) => {
-    if (n < 4) {
-      return ".".repeat(n);
-    }
-    if (this.length < n) {
-      return this;
-    } else if (this.length > n) {
-      let words = this.split(" ");
-      let currentLength = 0;
-      let removeAfterIndex = 0;
-      if (words.length > 1) {
-        for (let i = 0; i < words.length; i++) {
-          currentLength += words[i].length;
-          if (currentLength >= n) {
-            removeAfterIndex = i;
-            break;
-          }
-        }
-        words.splice(removeAfterIndex, words.length - removeAfterIndex);
-        return words.join(" ") + "...";
-      } else {
-        return words[0].substring(0, words[0].length - n) + "...";
-      }
-    }
+  String.prototype.truncate = function (n) {
+    if (n < 4) return ".".repeat(n);
+    let currString = this.toString();
+    if (this.length <= n) return currString;
+    let lastSpace = currString.slice(0, n - 3).lastIndexOf(" ");
+    if (lastSpace !== -1) return currString.slice(0, lastSpace) + "...";
+    return currString.substring(0, n - 3) + "...";
   };
 
-  String.format = (string, ...params) => {
+  String.format = function (string, ...params) {
     for (let i = 0; i < params.length; i++) {
       string = string.replace(`{${i}}`, params[i]);
     }
-
     return string;
   };
 })();
 
 let str = "my string";
-console.log(str);
 str = str.ensureStart("my");
 console.log(str);
 str = str.ensureStart("hello ");
