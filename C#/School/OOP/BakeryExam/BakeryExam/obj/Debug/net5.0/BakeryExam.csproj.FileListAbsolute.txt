@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\bin\Debug\net5.0\BakeryExam.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\bin\Debug\net5.0\BakeryExam.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\bin\Debug\net5.0\BakeryExam.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\bin\Debug\net5.0\BakeryExam.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\bin\Debug\net5.0\BakeryExam.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\bin\Debug\net5.0\ref\BakeryExam.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\bin\Debug\net5.0\BakeryExam.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\obj\Debug\net5.0\BakeryExam.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\obj\Debug\net5.0\BakeryExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\obj\Debug\net5.0\BakeryExam.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\obj\Debug\net5.0\BakeryExam.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\obj\Debug\net5.0\BakeryExam.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\obj\Debug\net5.0\BakeryExam.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\obj\Debug\net5.0\ref\BakeryExam.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\obj\Debug\net5.0\BakeryExam.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\BakeryExam\BakeryExam\obj\Debug\net5.0\BakeryExam.genruntimeconfig.cache

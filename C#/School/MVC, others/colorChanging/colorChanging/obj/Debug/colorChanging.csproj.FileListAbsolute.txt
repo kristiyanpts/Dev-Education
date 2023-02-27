@@ -1,0 +1,10 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\bin\Debug\colorChanging.exe.config
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\bin\Debug\colorChanging.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\bin\Debug\colorChanging.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\obj\Debug\colorChanging.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\obj\Debug\colorChanging.Form1.resources
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\obj\Debug\colorChanging.Properties.Resources.resources
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\obj\Debug\colorChanging.csproj.GenerateResource.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\obj\Debug\colorChanging.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\obj\Debug\colorChanging.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\colorChanging\colorChanging\obj\Debug\colorChanging.pdb

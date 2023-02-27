@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\bin\Debug\net5.0\sklad.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\bin\Debug\net5.0\sklad.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\bin\Debug\net5.0\sklad.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\bin\Debug\net5.0\sklad.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\bin\Debug\net5.0\sklad.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\bin\Debug\net5.0\ref\sklad.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\bin\Debug\net5.0\sklad.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\obj\Debug\net5.0\sklad.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\obj\Debug\net5.0\sklad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\obj\Debug\net5.0\sklad.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\obj\Debug\net5.0\sklad.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\obj\Debug\net5.0\sklad.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\obj\Debug\net5.0\sklad.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\obj\Debug\net5.0\ref\sklad.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\obj\Debug\net5.0\sklad.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\sklad\sklad\obj\Debug\net5.0\sklad.genruntimeconfig.cache

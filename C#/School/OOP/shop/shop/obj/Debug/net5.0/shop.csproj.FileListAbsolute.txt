@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\bin\Debug\net5.0\shop.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\bin\Debug\net5.0\shop.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\bin\Debug\net5.0\shop.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\bin\Debug\net5.0\shop.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\bin\Debug\net5.0\shop.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\bin\Debug\net5.0\ref\shop.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\bin\Debug\net5.0\shop.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\obj\Debug\net5.0\shop.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\obj\Debug\net5.0\shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\obj\Debug\net5.0\shop.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\obj\Debug\net5.0\shop.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\obj\Debug\net5.0\shop.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\obj\Debug\net5.0\shop.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\obj\Debug\net5.0\ref\shop.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\obj\Debug\net5.0\shop.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\shop\shop\obj\Debug\net5.0\shop.genruntimeconfig.cache

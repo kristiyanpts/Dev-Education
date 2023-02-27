@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\bin\Debug\net5.0\convertor.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\bin\Debug\net5.0\convertor.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\bin\Debug\net5.0\convertor.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\bin\Debug\net5.0\convertor.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\bin\Debug\net5.0\convertor.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\bin\Debug\net5.0\ref\convertor.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\bin\Debug\net5.0\convertor.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\obj\Debug\net5.0\convertor.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\obj\Debug\net5.0\convertor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\obj\Debug\net5.0\convertor.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\obj\Debug\net5.0\convertor.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\obj\Debug\net5.0\convertor.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\obj\Debug\net5.0\convertor.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\obj\Debug\net5.0\ref\convertor.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\obj\Debug\net5.0\convertor.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\convertor\obj\Debug\net5.0\convertor.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\bin\Debug\net5.0\Workers.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\bin\Debug\net5.0\Workers.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\bin\Debug\net5.0\Workers.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\bin\Debug\net5.0\Workers.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\bin\Debug\net5.0\Workers.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\bin\Debug\net5.0\ref\Workers.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\bin\Debug\net5.0\Workers.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\obj\Debug\net5.0\Workers.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\obj\Debug\net5.0\Workers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\obj\Debug\net5.0\Workers.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\obj\Debug\net5.0\Workers.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\obj\Debug\net5.0\Workers.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\obj\Debug\net5.0\Workers.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\obj\Debug\net5.0\ref\Workers.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\obj\Debug\net5.0\Workers.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Workers\Workers\obj\Debug\net5.0\Workers.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\obj\Debug\net5.0\dzi_26.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\obj\Debug\net5.0\dzi_26.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\obj\Debug\net5.0\dzi_26.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\obj\Debug\net5.0\dzi_26.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\obj\Debug\net5.0\dzi_26.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\bin\Debug\net5.0\dzi_26.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\bin\Debug\net5.0\dzi_26.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\bin\Debug\net5.0\dzi_26.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\bin\Debug\net5.0\dzi_26.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\bin\Debug\net5.0\dzi_26.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\bin\Debug\net5.0\ref\dzi_26.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\bin\Debug\net5.0\dzi_26.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\obj\Debug\net5.0\dzi_26.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\obj\Debug\net5.0\ref\dzi_26.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\obj\Debug\net5.0\dzi_26.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\dzi_26\dzi_26\obj\Debug\net5.0\dzi_26.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\bin\Debug\net5.0\taskaBiblioteki.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\bin\Debug\net5.0\taskaBiblioteki.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\bin\Debug\net5.0\taskaBiblioteki.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\bin\Debug\net5.0\taskaBiblioteki.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\bin\Debug\net5.0\taskaBiblioteki.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\bin\Debug\net5.0\ref\taskaBiblioteki.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\bin\Debug\net5.0\taskaBiblioteki.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\obj\Debug\net5.0\taskaBiblioteki.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\obj\Debug\net5.0\taskaBiblioteki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\obj\Debug\net5.0\taskaBiblioteki.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\obj\Debug\net5.0\taskaBiblioteki.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\obj\Debug\net5.0\taskaBiblioteki.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\obj\Debug\net5.0\taskaBiblioteki.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\obj\Debug\net5.0\ref\taskaBiblioteki.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\obj\Debug\net5.0\taskaBiblioteki.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\taskaBiblioteki\taskaBiblioteki\obj\Debug\net5.0\taskaBiblioteki.genruntimeconfig.cache

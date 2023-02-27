@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\bin\Debug\net5.0\temperaturesExam.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\bin\Debug\net5.0\temperaturesExam.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\bin\Debug\net5.0\temperaturesExam.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\bin\Debug\net5.0\temperaturesExam.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\bin\Debug\net5.0\temperaturesExam.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\bin\Debug\net5.0\ref\temperaturesExam.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\bin\Debug\net5.0\temperaturesExam.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\obj\Debug\net5.0\temperaturesExam.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\obj\Debug\net5.0\temperaturesExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\obj\Debug\net5.0\temperaturesExam.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\obj\Debug\net5.0\temperaturesExam.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\obj\Debug\net5.0\temperaturesExam.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\obj\Debug\net5.0\temperaturesExam.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\obj\Debug\net5.0\ref\temperaturesExam.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\obj\Debug\net5.0\temperaturesExam.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\temperaturesExam\temperaturesExam\obj\Debug\net5.0\temperaturesExam.genruntimeconfig.cache

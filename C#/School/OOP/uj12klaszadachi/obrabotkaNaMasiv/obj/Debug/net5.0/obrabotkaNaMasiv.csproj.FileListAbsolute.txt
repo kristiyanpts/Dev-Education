@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\bin\Debug\net5.0\obrabotkaNaMasiv.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\bin\Debug\net5.0\obrabotkaNaMasiv.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\bin\Debug\net5.0\obrabotkaNaMasiv.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\bin\Debug\net5.0\obrabotkaNaMasiv.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\bin\Debug\net5.0\obrabotkaNaMasiv.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\bin\Debug\net5.0\ref\obrabotkaNaMasiv.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\bin\Debug\net5.0\obrabotkaNaMasiv.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\obj\Debug\net5.0\obrabotkaNaMasiv.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\obj\Debug\net5.0\obrabotkaNaMasiv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\obj\Debug\net5.0\obrabotkaNaMasiv.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\obj\Debug\net5.0\obrabotkaNaMasiv.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\obj\Debug\net5.0\obrabotkaNaMasiv.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\obj\Debug\net5.0\obrabotkaNaMasiv.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\obj\Debug\net5.0\ref\obrabotkaNaMasiv.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\obj\Debug\net5.0\obrabotkaNaMasiv.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\uj12klaszadachi\obrabotkaNaMasiv\obj\Debug\net5.0\obrabotkaNaMasiv.genruntimeconfig.cache

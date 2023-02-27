@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\bin\Debug\net5.0\labyrinth.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\bin\Debug\net5.0\labyrinth.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\bin\Debug\net5.0\labyrinth.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\bin\Debug\net5.0\labyrinth.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\bin\Debug\net5.0\labyrinth.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\bin\Debug\net5.0\ref\labyrinth.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\bin\Debug\net5.0\labyrinth.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\obj\Debug\net5.0\labyrinth.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\obj\Debug\net5.0\labyrinth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\obj\Debug\net5.0\labyrinth.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\obj\Debug\net5.0\labyrinth.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\obj\Debug\net5.0\labyrinth.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\obj\Debug\net5.0\labyrinth.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\obj\Debug\net5.0\ref\labyrinth.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\obj\Debug\net5.0\labyrinth.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\labyrinth\obj\Debug\net5.0\labyrinth.genruntimeconfig.cache

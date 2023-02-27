@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\bin\Debug\net5.0\Pool.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\bin\Debug\net5.0\Pool.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\bin\Debug\net5.0\Pool.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\bin\Debug\net5.0\Pool.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\bin\Debug\net5.0\Pool.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\bin\Debug\net5.0\ref\Pool.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\bin\Debug\net5.0\Pool.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\obj\Debug\net5.0\Pool.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\obj\Debug\net5.0\Pool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\obj\Debug\net5.0\Pool.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\obj\Debug\net5.0\Pool.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\obj\Debug\net5.0\Pool.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\obj\Debug\net5.0\Pool.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\obj\Debug\net5.0\ref\Pool.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\obj\Debug\net5.0\Pool.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Pool\Pool\obj\Debug\net5.0\Pool.genruntimeconfig.cache

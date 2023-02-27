@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\bin\Debug\net5.0\^2.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\bin\Debug\net5.0\^2.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\bin\Debug\net5.0\^2.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\bin\Debug\net5.0\^2.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\bin\Debug\net5.0\^2.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\bin\Debug\net5.0\ref\^2.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\bin\Debug\net5.0\^2.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\obj\Debug\net5.0\^2.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\obj\Debug\net5.0\^2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\obj\Debug\net5.0\^2.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\obj\Debug\net5.0\^2.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\obj\Debug\net5.0\^2.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\obj\Debug\net5.0\^2.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\obj\Debug\net5.0\ref\^2.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\obj\Debug\net5.0\^2.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\^2\obj\Debug\net5.0\^2.genruntimeconfig.cache

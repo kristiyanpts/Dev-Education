@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\bin\Debug\net5.0\employeesOOP.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\bin\Debug\net5.0\employeesOOP.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\bin\Debug\net5.0\employeesOOP.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\bin\Debug\net5.0\employeesOOP.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\bin\Debug\net5.0\employeesOOP.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\bin\Debug\net5.0\ref\employeesOOP.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\bin\Debug\net5.0\employeesOOP.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\obj\Debug\net5.0\employeesOOP.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\obj\Debug\net5.0\employeesOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\obj\Debug\net5.0\employeesOOP.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\obj\Debug\net5.0\employeesOOP.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\obj\Debug\net5.0\employeesOOP.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\obj\Debug\net5.0\employeesOOP.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\obj\Debug\net5.0\ref\employeesOOP.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\obj\Debug\net5.0\employeesOOP.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\employeesOOP\employeesOOP\obj\Debug\net5.0\employeesOOP.genruntimeconfig.cache

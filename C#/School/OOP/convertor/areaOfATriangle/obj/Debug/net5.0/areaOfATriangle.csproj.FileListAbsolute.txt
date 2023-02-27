@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\bin\Debug\net5.0\areaOfATriangle.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\bin\Debug\net5.0\areaOfATriangle.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\bin\Debug\net5.0\areaOfATriangle.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\bin\Debug\net5.0\areaOfATriangle.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\bin\Debug\net5.0\areaOfATriangle.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\bin\Debug\net5.0\ref\areaOfATriangle.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\bin\Debug\net5.0\areaOfATriangle.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\obj\Debug\net5.0\areaOfATriangle.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\obj\Debug\net5.0\areaOfATriangle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\obj\Debug\net5.0\areaOfATriangle.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\obj\Debug\net5.0\areaOfATriangle.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\obj\Debug\net5.0\areaOfATriangle.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\obj\Debug\net5.0\areaOfATriangle.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\obj\Debug\net5.0\ref\areaOfATriangle.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\obj\Debug\net5.0\areaOfATriangle.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\areaOfATriangle\obj\Debug\net5.0\areaOfATriangle.genruntimeconfig.cache

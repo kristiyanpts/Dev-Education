@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\bin\Debug\net5.0\Comparison.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\bin\Debug\net5.0\Comparison.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\bin\Debug\net5.0\Comparison.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\bin\Debug\net5.0\Comparison.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\bin\Debug\net5.0\Comparison.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\bin\Debug\net5.0\ref\Comparison.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\bin\Debug\net5.0\Comparison.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\obj\Debug\net5.0\Comparison.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\obj\Debug\net5.0\Comparison.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\obj\Debug\net5.0\Comparison.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\obj\Debug\net5.0\Comparison.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\obj\Debug\net5.0\Comparison.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\obj\Debug\net5.0\Comparison.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\obj\Debug\net5.0\ref\Comparison.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\obj\Debug\net5.0\Comparison.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Comparison\Comparison\obj\Debug\net5.0\Comparison.genruntimeconfig.cache

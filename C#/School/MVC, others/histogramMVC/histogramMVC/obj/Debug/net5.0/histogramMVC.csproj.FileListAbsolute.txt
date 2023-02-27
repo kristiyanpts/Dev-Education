@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\bin\Debug\net5.0\histogramMVC.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\bin\Debug\net5.0\histogramMVC.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\bin\Debug\net5.0\histogramMVC.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\bin\Debug\net5.0\histogramMVC.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\bin\Debug\net5.0\histogramMVC.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\bin\Debug\net5.0\ref\histogramMVC.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\bin\Debug\net5.0\histogramMVC.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\obj\Debug\net5.0\histogramMVC.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\obj\Debug\net5.0\histogramMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\obj\Debug\net5.0\histogramMVC.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\obj\Debug\net5.0\histogramMVC.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\obj\Debug\net5.0\histogramMVC.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\obj\Debug\net5.0\histogramMVC.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\obj\Debug\net5.0\ref\histogramMVC.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\obj\Debug\net5.0\histogramMVC.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\histogramMVC\histogramMVC\obj\Debug\net5.0\histogramMVC.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\bin\Debug\net5.0\delenieBezOstatuk.exe
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\bin\Debug\net5.0\delenieBezOstatuk.deps.json
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\bin\Debug\net5.0\delenieBezOstatuk.runtimeconfig.json
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\bin\Debug\net5.0\delenieBezOstatuk.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\bin\Debug\net5.0\delenieBezOstatuk.dll
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\bin\Debug\net5.0\ref\delenieBezOstatuk.dll
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\bin\Debug\net5.0\delenieBezOstatuk.pdb
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\obj\Debug\net5.0\delenieBezOstatuk.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\obj\Debug\net5.0\delenieBezOstatuk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\obj\Debug\net5.0\delenieBezOstatuk.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\obj\Debug\net5.0\delenieBezOstatuk.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\obj\Debug\net5.0\delenieBezOstatuk.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\obj\Debug\net5.0\delenieBezOstatuk.dll
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\obj\Debug\net5.0\ref\delenieBezOstatuk.dll
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\obj\Debug\net5.0\delenieBezOstatuk.pdb
+C:\Users\КристиянМПецанов\OneDrive - Министерство на образованието и науката\Desktop\11 клас\Иванова\delenieBezOstatuk\delenieBezOstatuk\obj\Debug\net5.0\delenieBezOstatuk.genruntimeconfig.cache

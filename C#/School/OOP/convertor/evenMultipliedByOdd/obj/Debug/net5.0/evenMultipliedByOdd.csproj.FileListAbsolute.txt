@@ -1,0 +1,15 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\bin\Debug\net5.0\evenMultipliedByOdd.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\bin\Debug\net5.0\evenMultipliedByOdd.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\bin\Debug\net5.0\evenMultipliedByOdd.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\bin\Debug\net5.0\evenMultipliedByOdd.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\bin\Debug\net5.0\evenMultipliedByOdd.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\bin\Debug\net5.0\ref\evenMultipliedByOdd.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\bin\Debug\net5.0\evenMultipliedByOdd.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\obj\Debug\net5.0\evenMultipliedByOdd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\obj\Debug\net5.0\evenMultipliedByOdd.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\obj\Debug\net5.0\evenMultipliedByOdd.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\obj\Debug\net5.0\evenMultipliedByOdd.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\obj\Debug\net5.0\evenMultipliedByOdd.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\obj\Debug\net5.0\ref\evenMultipliedByOdd.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\obj\Debug\net5.0\evenMultipliedByOdd.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\convertor\evenMultipliedByOdd\obj\Debug\net5.0\evenMultipliedByOdd.genruntimeconfig.cache

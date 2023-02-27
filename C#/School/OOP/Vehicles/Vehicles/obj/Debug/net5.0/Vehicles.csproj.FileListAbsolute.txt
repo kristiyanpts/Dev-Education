@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\bin\Debug\net5.0\Vehicles.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\bin\Debug\net5.0\Vehicles.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\bin\Debug\net5.0\Vehicles.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\bin\Debug\net5.0\Vehicles.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\bin\Debug\net5.0\Vehicles.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\bin\Debug\net5.0\ref\Vehicles.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\bin\Debug\net5.0\Vehicles.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\obj\Debug\net5.0\Vehicles.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\obj\Debug\net5.0\Vehicles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\obj\Debug\net5.0\Vehicles.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\obj\Debug\net5.0\Vehicles.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\obj\Debug\net5.0\Vehicles.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\obj\Debug\net5.0\Vehicles.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\obj\Debug\net5.0\ref\Vehicles.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\obj\Debug\net5.0\Vehicles.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\Vehicles\Vehicles\obj\Debug\net5.0\Vehicles.genruntimeconfig.cache

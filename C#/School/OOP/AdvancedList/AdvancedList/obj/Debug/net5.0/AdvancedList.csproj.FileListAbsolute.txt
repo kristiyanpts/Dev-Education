@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\bin\Debug\net5.0\AdvancedList.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\bin\Debug\net5.0\AdvancedList.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\bin\Debug\net5.0\AdvancedList.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\bin\Debug\net5.0\AdvancedList.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\bin\Debug\net5.0\AdvancedList.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\bin\Debug\net5.0\ref\AdvancedList.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\bin\Debug\net5.0\AdvancedList.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\obj\Debug\net5.0\AdvancedList.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\obj\Debug\net5.0\AdvancedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\obj\Debug\net5.0\AdvancedList.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\obj\Debug\net5.0\AdvancedList.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\obj\Debug\net5.0\AdvancedList.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\obj\Debug\net5.0\AdvancedList.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\obj\Debug\net5.0\ref\AdvancedList.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\obj\Debug\net5.0\AdvancedList.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\AdvancedList\AdvancedList\obj\Debug\net5.0\AdvancedList.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\bin\Debug\net5.0\travelMVC.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\bin\Debug\net5.0\travelMVC.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\bin\Debug\net5.0\travelMVC.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\bin\Debug\net5.0\travelMVC.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\bin\Debug\net5.0\travelMVC.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\bin\Debug\net5.0\ref\travelMVC.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\bin\Debug\net5.0\travelMVC.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\obj\Debug\net5.0\travelMVC.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\obj\Debug\net5.0\travelMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\obj\Debug\net5.0\travelMVC.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\obj\Debug\net5.0\travelMVC.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\obj\Debug\net5.0\travelMVC.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\obj\Debug\net5.0\travelMVC.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\obj\Debug\net5.0\ref\travelMVC.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\obj\Debug\net5.0\travelMVC.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\Иванова\travelMVC\travelMVC\obj\Debug\net5.0\travelMVC.genruntimeconfig.cache

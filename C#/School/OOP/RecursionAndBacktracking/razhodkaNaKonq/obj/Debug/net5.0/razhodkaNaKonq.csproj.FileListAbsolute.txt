@@ -1,0 +1,16 @@
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\bin\Debug\net5.0\razhodkaNaKonq.exe
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\bin\Debug\net5.0\razhodkaNaKonq.deps.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\bin\Debug\net5.0\razhodkaNaKonq.runtimeconfig.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\bin\Debug\net5.0\razhodkaNaKonq.runtimeconfig.dev.json
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\bin\Debug\net5.0\razhodkaNaKonq.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\bin\Debug\net5.0\ref\razhodkaNaKonq.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\bin\Debug\net5.0\razhodkaNaKonq.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\obj\Debug\net5.0\razhodkaNaKonq.csproj.AssemblyReference.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\obj\Debug\net5.0\razhodkaNaKonq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\obj\Debug\net5.0\razhodkaNaKonq.AssemblyInfoInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\obj\Debug\net5.0\razhodkaNaKonq.AssemblyInfo.cs
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\obj\Debug\net5.0\razhodkaNaKonq.csproj.CoreCompileInputs.cache
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\obj\Debug\net5.0\razhodkaNaKonq.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\obj\Debug\net5.0\ref\razhodkaNaKonq.dll
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\obj\Debug\net5.0\razhodkaNaKonq.pdb
+C:\Users\КристиянМПецанов\Desktop\11 клас\ООП\RecursionAndBacktracking\razhodkaNaKonq\obj\Debug\net5.0\razhodkaNaKonq.genruntimeconfig.cache
