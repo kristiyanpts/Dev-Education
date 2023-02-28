@@ -49,9 +49,9 @@ async function attachEvents() {
         }</span>
         <span class="condition">
         <span class="forecast-data">${todayData.name}</span>
-        <span class="forecast-data">${todayData.forecast.low}/${
+        <span class="forecast-data">${todayData.forecast.low}°/${
           todayData.forecast.high
-        }</span>
+        }°</span>
         <span class="forecast-data">${todayData.forecast.condition}</span>
         </span>
         `;
@@ -65,9 +65,9 @@ async function attachEvents() {
             <span class="symbol">${
               weatherSymbols[threeData.forecast[i].condition]
             }</span>
-            <span class="forecast-data">${threeData.forecast[i].low}/${
+            <span class="forecast-data">${threeData.forecast[i].low}°/${
             threeData.forecast[i].high
-          }</span>
+          }°</span>
             <span class="forecast-data">${
               threeData.forecast[i].condition
             }</span>
