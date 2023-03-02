@@ -43,7 +43,49 @@ async function loadCatches() {
       return res.json();
     })
     .then((data) => {
-      console.log(data);
+      if (!data.length) {
+        let c = data;
+        let div = document.createElement("div");
+        div.setAttribute("class", "catch");
+        div.addEventListener("click", catchAction);
+        if (localStorage.length > 0 && c._ownerId == localStorage._id) {
+          div.innerHTML = `
+                <label>Angler</label>
+                <input type="text" class="angler" value="${c.angler}">
+                <label>Weight</label>
+                <input type="text" class="weight" value="${c.weight}">
+                <label>Species</label>
+                <input type="text" class="species" value="${c.species}">
+                <label>Location</label>
+                <input type="text" class="location" value="${c.location}">
+                <label>Bait</label>
+                <input type="text" class="bait" value="${c.bait}">
+                <label>Capture Time</label>
+                <input type="number" class="captureTime" value="${c.captureTime}">
+                <button class="update" data-id="${c._id}">Update</button>
+                <button class="delete" data-id="${c._id}">Delete</button>
+            `;
+        } else {
+          div.innerHTML = `
+                <label>Angler</label>
+                <input type="text" class="angler" value="${c.angler}" disabled>
+                <label>Weight</label>
+                <input type="text" class="weight" value="${c.weight}" disabled>
+                <label>Species</label>
+                <input type="text" class="species" value="${c.species}" disabled>
+                <label>Location</label>
+                <input type="text" class="location" value="${c.location}" disabled>
+                <label>Bait</label>
+                <input type="text" class="bait" value="${c.bait}" disabled>
+                <label>Capture Time</label>
+                <input type="number" class="captureTime" value="${c.captureTime}" disabled>
+                <button class="update" data-id="${c._id}" disabled>Update</button>
+                <button class="delete" data-id="${c._id}" disabled>Delete</button>
+            `;
+        }
+        catches.appendChild(div);
+        return;
+      }
       data.forEach((c) => {
         let div = document.createElement("div");
         div.setAttribute("class", "catch");
