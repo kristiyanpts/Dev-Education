@@ -5,7 +5,7 @@ const host =
   "http://127.0.0.1:5500/JS/JS%20Applications%20(February%202023)/04.%20Single%20Page%20Application%20-%20Exercise/02.Movies/"; // Application host (NOT service host - that can be anything)
 
 const interval = 300;
-const DEBUG = true;
+const DEBUG = false;
 const slowMo = 1500;
 
 const mockData = {
@@ -108,117 +108,116 @@ describe("E2E tests", function () {
     await page.close();
     await context.close();
   });
-  // Test proper
-  // describe("Authentication", () => {
-  //   it("register does not work with empty fields", async () => {
-  //     const { post } = await handle(endpoints.register);
-  //     const isCalled = post().isHandled;
+  describe("Authentication", () => {
+    it("register does not work with empty fields", async () => {
+      const { post } = await handle(endpoints.register);
+      const isCalled = post().isHandled;
 
-  //     await page.goto(host);
-  //     await page.waitForSelector(".navbar-nav");
+      await page.goto(host);
+      await page.waitForSelector(".navbar-nav");
 
-  //     await page.click("nav >> text=Register");
-  //     await page.waitForSelector("#register-form");
+      await page.click("nav >> text=Register");
+      await page.waitForSelector("#register-form");
 
-  //     // await page.click('[type="submit"]');
-  //     await page.click("#register-form >> text=Register");
+      // await page.click('[type="submit"]');
+      await page.click("#register-form >> text=Register");
 
-  //     expect(isCalled()).to.be.false;
-  //   });
+      expect(isCalled()).to.be.false;
+    });
 
-  //   it("register makes correct API call", async () => {
-  //     const data = mockData.users[0];
-  //     const { post } = await handle(endpoints.register);
-  //     const { onRequest } = post(data);
+    it("register makes correct API call", async () => {
+      const data = mockData.users[0];
+      const { post } = await handle(endpoints.register);
+      const { onRequest } = post(data);
 
-  //     await page.goto(host);
-  //     await page.waitForSelector(".navbar-nav");
+      await page.goto(host);
+      await page.waitForSelector(".navbar-nav");
 
-  //     await page.click("nav >> text=Register");
+      await page.click("nav >> text=Register");
 
-  //     await page.waitForSelector("#register-form");
-  //     await page.fill('#register-form >> [name="email"]', data.email);
-  //     await page.fill('#register-form >> [name="password"]', data.password);
-  //     await page.fill(
-  //       '#register-form >> [name="repeatPassword"]',
-  //       data.password
-  //     );
+      await page.waitForSelector("#register-form");
+      await page.fill('#register-form >> [name="email"]', data.email);
+      await page.fill('#register-form >> [name="password"]', data.password);
+      await page.fill(
+        '#register-form >> [name="repeatPassword"]',
+        data.password
+      );
 
-  //     const [request] = await Promise.all([
-  //       onRequest(),
-  //       // page.click('[type="submit"]'),
-  //       page.click("#register-form >> text=Register"),
-  //     ]);
+      const [request] = await Promise.all([
+        onRequest(),
+        // page.click('[type="submit"]'),
+        page.click("#register-form >> text=Register"),
+      ]);
 
-  //     const postData = JSON.parse(request.postData());
+      const postData = JSON.parse(request.postData());
 
-  //     expect(postData.username).to.equal(data.username);
-  //     expect(postData.password).to.equal(data.password);
-  //   });
+      expect(postData.username).to.equal(data.username);
+      expect(postData.password).to.equal(data.password);
+    });
 
-  //   it("login makes correct API call", async () => {
-  //     const data = mockData.users[0];
-  //     const { post } = await handle(endpoints.login);
-  //     const { onRequest } = post(data);
+    it("login makes correct API call", async () => {
+      const data = mockData.users[0];
+      const { post } = await handle(endpoints.login);
+      const { onRequest } = post(data);
 
-  //     await page.goto(host);
-  //     await page.waitForSelector(".navbar-nav");
+      await page.goto(host);
+      await page.waitForSelector(".navbar-nav");
 
-  //     await page.click("nav >> text=Login");
+      await page.click("nav >> text=Login");
 
-  //     await page.waitForSelector("#login-form");
-  //     await page.fill('[name="email"]', data.email);
-  //     await page.fill('[name="password"]', data.password);
+      await page.waitForSelector("#login-form");
+      await page.fill('[name="email"]', data.email);
+      await page.fill('[name="password"]', data.password);
 
-  //     const [request] = await Promise.all([
-  //       onRequest(),
-  //       // page.click('[type="submit"]'),
-  //       page.click("#login-form >> text=Login"),
-  //     ]);
+      const [request] = await Promise.all([
+        onRequest(),
+        // page.click('[type="submit"]'),
+        page.click("#login-form >> text=Login"),
+      ]);
 
-  //     const postData = JSON.parse(request.postData());
-  //     expect(postData.username).to.equal(data.username);
-  //     expect(postData.password).to.equal(data.password);
-  //   });
-  // });
+      const postData = JSON.parse(request.postData());
+      expect(postData.username).to.equal(data.username);
+      expect(postData.password).to.equal(data.password);
+    });
+  });
 
-  // describe("Navigation bar", () => {
-  //   it("guest user should see correct navigation", async () => {
-  //     await page.goto(host);
-  //     await page.waitForSelector("nav");
+  describe("Navigation bar", () => {
+    it("guest user should see correct navigation", async () => {
+      await page.goto(host);
+      await page.waitForSelector("nav");
 
-  //     expect(await page.isVisible("nav >> text=Movies")).to.be.true;
-  //     expect(await page.isVisible("nav >> text=Login")).to.be.true;
-  //     expect(await page.isVisible("nav >> text=Register")).to.be.true;
+      expect(await page.isVisible("nav >> text=Movies")).to.be.true;
+      expect(await page.isVisible("nav >> text=Login")).to.be.true;
+      expect(await page.isVisible("nav >> text=Register")).to.be.true;
 
-  //     expect(await page.isVisible("nav >> text=Welcome")).to.be.false;
-  //     expect(await page.isVisible("nav >> text=Logout")).to.be.false;
-  //   });
+      expect(await page.isVisible("nav >> text=Welcome")).to.be.false;
+      expect(await page.isVisible("nav >> text=Logout")).to.be.false;
+    });
 
-  //   it("logged user should see correct navigation", async () => {
-  //     // Login user
-  //     const data = mockData.users[0];
-  //     await page.goto(host);
-  //     await page.waitForSelector(".navbar-nav");
+    it("logged user should see correct navigation", async () => {
+      // Login user
+      const data = mockData.users[0];
+      await page.goto(host);
+      await page.waitForSelector(".navbar-nav");
 
-  //     await page.click("nav >> text=Login");
+      await page.click("nav >> text=Login");
 
-  //     await page.waitForSelector("#login-form");
-  //     await page.fill('[name="email"]', data.email);
-  //     await page.fill('[name="password"]', data.password);
+      await page.waitForSelector("#login-form");
+      await page.fill('[name="email"]', data.email);
+      await page.fill('[name="password"]', data.password);
 
-  //     page.click("form >> text=Login"), await page.waitForSelector(".user");
+      page.click("form >> text=Login"), await page.waitForSelector(".user");
 
-  //     //Test for navigation
-  //     expect(await page.isVisible("nav >> text=Movies")).to.be.true;
-  //     expect(await page.isVisible(`nav >> text=Welcome, ${data.email}`)).to.be
-  //       .true;
-  //     expect(await page.isVisible("nav >> text=Logout")).to.be.true;
+      //Test for navigation
+      expect(await page.isVisible("nav >> text=Movies")).to.be.true;
+      expect(await page.isVisible(`nav >> text=Welcome, ${data.email}`)).to.be
+        .true;
+      expect(await page.isVisible("nav >> text=Logout")).to.be.true;
 
-  //     expect(await page.isVisible("nav >> text=Login")).to.be.false;
-  //     expect(await page.isVisible("nav >> text=Register")).to.be.false;
-  //   });
-  // });
+      expect(await page.isVisible("nav >> text=Login")).to.be.false;
+      expect(await page.isVisible("nav >> text=Register")).to.be.false;
+    });
+  });
 
   describe("Catalog", () => {
     it("show details", async () => {
