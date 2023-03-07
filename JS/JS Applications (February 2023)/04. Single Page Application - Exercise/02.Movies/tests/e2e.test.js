@@ -2,7 +2,7 @@ const { chromium } = require("playwright-chromium");
 const { expect } = require("chai");
 
 const host =
-  "http://127.0.0.1:5500/JS/JS%20Applications%20(February%202023)/04.%20Single%20Page%20Application%20-%20Exercise/02.Movies/"; // Application host (NOT service host - that can be anything)
+  "http://127.0.0.1:5500/JS/JS%20Applications%20(February%202023)/04.%20Single%20Page%20Application%20-%20Exercise/02.Movies/src/index.html"; // Application host (NOT service host - that can be anything)
 
 const interval = 300;
 const DEBUG = false;
