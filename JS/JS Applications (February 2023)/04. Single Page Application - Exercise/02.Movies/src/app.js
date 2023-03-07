@@ -20,7 +20,6 @@ window.onload = function () {
 
 async function logoutUser(e) {
   e.preventDefault();
-  45;
   const url = "http://localhost:3030/users/logout";
   await fetch(url, {
     method: "GET",
@@ -30,5 +29,5 @@ async function logoutUser(e) {
     },
   });
   localStorage.clear();
-  showLoginPage();
+  return showLoginPage();
 }
