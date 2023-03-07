@@ -17,19 +17,19 @@
   <body>
     <div class="container" id="container">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand text-light" href="/">Movies</a>
+        <a class="navbar-brand text-light" href="index.html">Movies</a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item user">
             <a class="nav-link" id="welcome-msg">Welcome, email</a>
           </li>
           <li class="nav-item user">
-            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="/logout">Logout</a>
           </li>
           <li class="nav-item guest">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="/login">Login</a>
           </li>
           <li class="nav-item guest">
-            <a class="nav-link" href="#">Register</a>
+            <a class="nav-link" href="/register">Register</a>
           </li>
         </ul>
       </nav>
@@ -55,7 +55,7 @@
         <h1 class="text-center">Movies</h1>
 
         <section id="add-movie-button" class="user">
-          <a href="#" class="btn btn-warning">Add Movie</a>
+          <a href="/addmovie" class="btn btn-warning">Add Movie</a>
         </section>
 
         <section id="movie">
@@ -133,9 +133,9 @@
                 her ledger when a dangerous conspiracy with ties to her past
                 arises. Comes on the screens 2020.
               </p>
-              <a class="btn btn-danger" href="#">Delete</a>
-              <a class="btn btn-warning" href="#">Edit</a>
-              <a class="btn btn-primary" href="#">Like</a>
+              <a class="btn btn-danger" href="/deletemovie">Delete</a>
+              <a class="btn btn-warning" href="/editmovie">Edit</a>
+              <a class="btn btn-primary" href="/likemovie">Like</a>
               <span class="enrolled-span">Liked 1</span>
             </div>
           </div>
