@@ -19,20 +19,21 @@ async function deleteMovie(id) {
       "Content-Type": "application/json",
       "X-Authorization": localStorage.getItem("accessToken"),
     },
-  })
-    .then(async (res) => {
-      if (!res.ok) {
-        let err = await res.json();
-        throw err;
-      }
-      return await res.json();
-    })
-    .then((data) => {
-      showHomePage();
-    })
-    .catch((err) => {
-      alert(err.message);
-    });
+  });
+  // .then(async (res) => {
+  //   if (!res.ok) {
+  //     let err = await res.json();
+  //     throw err;
+  //   }
+  //   return await res.json();
+  // })
+  // .then((data) => {
+  //   showHomePage();
+  // })
+  // .catch((err) => {
+  //   alert(err.message);
+  // });
+  showHomePage();
 }
 
 async function editMovie(id) {

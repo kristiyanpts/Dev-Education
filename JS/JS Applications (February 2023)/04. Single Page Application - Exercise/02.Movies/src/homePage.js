@@ -28,7 +28,7 @@ async function loadMovies() {
   movieList.innerHTML = "";
 
   data.forEach((m) => {
-    const movieDiv = document.createElement("div");
+    const movieDiv = document.createElement("li");
     movieDiv.setAttribute("class", "card mb-4");
     movieDiv.innerHTML = `
     <img class="card-img-top" src="${m.img}"
