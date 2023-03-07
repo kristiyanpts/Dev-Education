@@ -14,7 +14,7 @@ export function showHomePage() {
 
 let movieList = document.getElementById("movies-list");
 movieList.addEventListener("click", (e) => {
-  if (e.target.tagName === "BUTTON") {
+  if (e.target.tagName == "BUTTON") {
     e.preventDefault();
     const id = e.target.getAttribute("data-id");
     showDetails(id);
