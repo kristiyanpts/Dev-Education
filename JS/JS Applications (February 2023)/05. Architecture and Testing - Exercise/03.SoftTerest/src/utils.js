@@ -1,7 +1,5 @@
 export function hideSections() {
-  let sections = Array.from(document.querySelectorAll(".page-section"));
-  console.log(sections);
-  sections.forEach((s) => (s.style.display = "none"));
+  document.getElementById("views").style.display = "none";
 }
 
 export function checkUserState() {

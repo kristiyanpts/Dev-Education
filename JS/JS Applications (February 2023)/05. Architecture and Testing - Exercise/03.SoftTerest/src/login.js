@@ -1,10 +1,10 @@
 import { post } from "./data/api.js";
 import { showHome } from "./home.js";
 import { hideSections } from "./utils.js";
-
+let login = document.getElementById("page-login");
 export function showLogin() {
   hideSections();
-  document.getElementById("page-login").style.display = "block";
+  document.querySelector("main").replaceChildren(login);
   let form = document.querySelector("#page-login form");
   form.addEventListener("submit", loginUser);
 }

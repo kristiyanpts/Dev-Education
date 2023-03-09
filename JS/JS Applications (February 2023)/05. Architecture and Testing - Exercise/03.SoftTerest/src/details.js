@@ -11,7 +11,7 @@ details.addEventListener("click", (e) => {
 });
 export function showDetails(id) {
   hideSections();
-  details.style.display = "block";
+  document.querySelector("main").replaceChildren(details);
   loadDetails(id);
 }
 

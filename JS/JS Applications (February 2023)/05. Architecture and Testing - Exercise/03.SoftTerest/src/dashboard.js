@@ -11,7 +11,7 @@ dashboard.addEventListener("click", (e) => {
 });
 export function showDashboard() {
   hideSections();
-  dashboard.style.display = "flex";
+  document.querySelector("main").replaceChildren(dashboard);
   getIdeas();
 }
 

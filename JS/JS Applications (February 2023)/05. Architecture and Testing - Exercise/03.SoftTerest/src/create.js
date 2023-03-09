@@ -1,10 +1,10 @@
 import { showDashboard } from "./dashboard.js";
 import { post } from "./data/api.js";
 import { hideSections } from "./utils.js";
-
+let create = document.getElementById("page-create");
 export function showCreate() {
   hideSections();
-  document.getElementById("page-create").style.display = "block";
+  document.querySelector("main").replaceChildren(create);
   let form = document.querySelector("#page-create form");
   form.addEventListener("submit", createIdea);
 }

@@ -1,7 +1,7 @@
 import { checkUserState, hideSections } from "./utils.js";
-
+let home = document.getElementById("page-home");
 export function showHome() {
   hideSections();
   checkUserState();
-  document.getElementById("page-home").style.display = "block";
+  document.querySelector("main").replaceChildren(home);
 }

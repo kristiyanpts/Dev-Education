@@ -4,7 +4,7 @@ const { expect } = require("chai");
 
 const host =
   "http://127.0.0.1:5500/JS/JS%20Applications%20(February%202023)/05.%20Architecture%20and%20Testing%20-%20Exercise/03.SoftTerest/"; // Application host (NOT service host - that can be anything)
-const DEBUG = true;
+const DEBUG = false;
 
 const mockData = require("./mock-data.json");
 const endpoints = {

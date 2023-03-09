@@ -1,10 +1,10 @@
 import { post } from "./data/api.js";
 import { showHome } from "./home.js";
 import { hideSections } from "./utils.js";
-
+let register = document.getElementById("page-register");
 export function showRegister() {
   hideSections();
-  document.getElementById("page-register").style.display = "block";
+  document.querySelector("main").replaceChildren(register);
   let form = document.querySelector("#page-register form");
   form.addEventListener("submit", registerUser);
 }
