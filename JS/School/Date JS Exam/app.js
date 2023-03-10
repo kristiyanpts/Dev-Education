@@ -12,6 +12,10 @@ let tasks = {
   5: showClock,
 };
 
+window.onload = function () {
+  showCurrentDate();
+};
+
 document.querySelector(".tasks").addEventListener("click", (e) => {
   if (e.target.tagName === "BUTTON") {
     let id = e.target.getAttribute("data-id");

@@ -1,11 +1,16 @@
+let task4 = document.getElementById("task-4");
+document.getElementById("check").addEventListener("click", showDiff);
 export function showTimeToDate() {
+  task4.style.display = "flex";
+  document.querySelector("main").replaceChildren(task4);
+}
+
+function showDiff() {
   let date = new Date();
-  let otherDate = new Date("2023-03-24T00:00:00");
+  let otherDate = new Date(document.getElementById("date").value);
+  console.log(otherDate);
   let diff = new Date(otherDate.getTime() - date);
-  console.log(diff / (1000 * 60 * 60 * 24));
-  document.querySelector(
-    "main"
-  ).innerHTML = `Days left until 24-03-2023: ${Math.floor(
-    diff / (1000 * 60 * 60 * 24)
-  )}`;
+  document.querySelector("main").innerHTML = `Days left until ${
+    document.getElementById("date").value
+  }: ${Math.ceil(diff / (1000 * 60 * 60 * 24))}`;
 }
