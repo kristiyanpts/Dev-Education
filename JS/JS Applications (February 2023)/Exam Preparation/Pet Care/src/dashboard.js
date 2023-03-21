@@ -5,7 +5,7 @@ let dashboardTemplate = (pets) => html`
   <section id="dashboard">
     <h2 class="dashboard-title">Services for every animal</h2>
     <div class="animals-dashboard">
-      ${pets.length > 1
+      ${pets.length > 0
         ? pets.map(petTemplate)
         : html`<div>
             <p class="no-pets">No pets in dashboard</p>
