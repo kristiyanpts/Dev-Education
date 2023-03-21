@@ -1,4 +1,6 @@
+import { loginUser } from "./api/user.js";
 import { html } from "./lib.js";
+import { createSubmitHandler } from "./utils.js";
 
 let loginTemplate = (onLogin) => html`
   <section id="loginPage">
@@ -38,3 +40,15 @@ let loginTemplate = (onLogin) => html`
     </form>
   </section>
 `;
+
+export function showLogin(ctx) {
+  ctx.render(loginTemplate(createSubmitHandler(onLogin)));
+
+  async function onLogin({ email, password }) {
+    if (email == "" || password == "")
+      return alert("Please enter your email and password.");
+    await loginUser(email, password);
+    ctx.updateNav();
+    ctx.page.redirect("/");
+  }
+}

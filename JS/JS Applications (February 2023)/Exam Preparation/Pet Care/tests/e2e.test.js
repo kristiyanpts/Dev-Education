@@ -1,9 +1,10 @@
 const { chromium } = require("playwright-chromium");
 const { expect } = require("chai");
 
-const host = "http://localhost:3000"; // Application host (NOT service host - that can be anything)
+const host =
+  "http://127.0.0.1:5500/JS/JS%20Applications%20(February%202023)/Exam%20Preparation/Pet%20Care/"; // Application host (NOT service host - that can be anything)
 const interval = 500;
-const DEBUG = false;
+const DEBUG = true;
 const slowMo = 500;
 
 const mockData = require("./mock-data.json");
