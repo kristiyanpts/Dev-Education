@@ -69,7 +69,7 @@ export async function showDetails(ctx) {
   }
 
   async function onLike() {
-    await likeTheater(theaterId);
+    likeTheater(theaterId);
     ctx.page.redirect("/details/" + theaterId);
   }
 }
