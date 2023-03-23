@@ -20,7 +20,7 @@ let detailsTemplate = (post, onDelete, onDonate) => html`<section
       </div>
       <div class="info">
         <h2 class="title post-title">${post.title}</h2>
-        <p class="post-description">${post.description}</p>
+        <p class="post-description">Description: ${post.description}</p>
         <p class="post-address">Address: ${post.address}</p>
         <p class="post-number">Phone number: ${post.phone}</p>
         <p class="donate-Item">Donate Materials: ${post.totalDonations}</p>
@@ -64,8 +64,11 @@ export async function showDetails(ctx) {
   ctx.render(detailsTemplate(post, onDelete, onDonate));
 
   async function onDelete() {
-    await deletePostById(postId);
-    ctx.page.redirect("/");
+    let deletePost = confirm("Are you sure you want to delete?");
+    if (deletePost) {
+      await deletePostById(postId);
+      ctx.page.redirect("/");
+    }
   }
 
   async function onDonate() {
