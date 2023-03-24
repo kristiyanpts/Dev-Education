@@ -53,6 +53,8 @@ export async function showCreate(ctx) {
       price == ""
     )
       return alert("All fields are required.");
+    year = Number(year);
+    price = Number(price);
 
     await createCars({ brand, model, description, year, imageUrl, price });
     ctx.page.redirect("/listings");

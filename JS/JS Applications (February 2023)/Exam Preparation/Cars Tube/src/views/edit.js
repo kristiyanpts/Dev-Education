@@ -78,6 +78,8 @@ export async function showEdit(ctx) {
       price == ""
     )
       return alert("All fields are required.");
+    year = Number(year);
+    price = Number(price);
 
     await updateCarsById(carId, {
       brand,
