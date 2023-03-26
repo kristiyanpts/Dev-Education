@@ -15,7 +15,7 @@ let registerTemplate = (onRegister) => html`<section id="register">
       />
       <input
         type="password"
-        name="repeatPassword"
+        name="re-password"
         id="repeat-password"
         placeholder="repeat password"
       />
@@ -28,7 +28,11 @@ let registerTemplate = (onRegister) => html`<section id="register">
 export function showRegister(ctx) {
   ctx.render(registerTemplate(createSubmitHandler(onRegister)));
 
-  async function onRegister({ email, password, repeatPassword }) {
+  async function onRegister({
+    email,
+    password,
+    ["re-password"]: repeatPassword,
+  }) {
     if (email == "" || password == "") return alert("All fields are required.");
     if (password != repeatPassword) return alert("Passwords do not match.");
     await registerUser(email, password);
