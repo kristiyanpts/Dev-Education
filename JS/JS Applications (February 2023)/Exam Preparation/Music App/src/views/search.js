@@ -1,7 +1,8 @@
 import { searchAlbum } from "../api/music.js";
 import { html } from "../lib.js";
+import { getUserData } from "../utils.js";
 
-let searchTemplate = (albums, onSearch) => html`<section id="searchPage">
+let searchTemplate = (albums, onSearch, user) => html`<section id="searchPage">
   <h1>Search by Name</h1>
 
   <div class="search">
@@ -19,12 +20,12 @@ let searchTemplate = (albums, onSearch) => html`<section id="searchPage">
   <!--Show after click Search button-->
   <div class="search-result">
     ${albums.length > 0
-      ? albums.map(albumTemplate)
+      ? albums.map((e) => albumTemplate(e, user))
       : html`<p class="no-result">No result.</p>`}
   </div>
 </section>`;
 
-let albumTemplate = (album) => html`<div class="card-box">
+let albumTemplate = (album, user) => html`<div class="card-box">
   <img src=${album.imgUrl} />
   <div>
     <div class="text-center">
@@ -34,15 +35,18 @@ let albumTemplate = (album) => html`<div class="card-box">
       <p class="price">Price: $${album.price}</p>
       <p class="date">Release Date: ${album.releaseDate}</p>
     </div>
-    <div class="btn-group">
-      <a href="/details/${album._id}" id="details">Details</a>
-    </div>
+    ${user
+      ? html`<div class="btn-group">
+          <a href="/details/${album._id}" id="details">Details</a>
+        </div>`
+      : null}
   </div>
 </div>`;
 
 export function showSearch(ctx) {
+  let user = getUserData();
   function renderSearch(albums) {
-    ctx.render(searchTemplate(albums, onSearch));
+    ctx.render(searchTemplate(albums, onSearch, user));
   }
   renderSearch([]);
 
