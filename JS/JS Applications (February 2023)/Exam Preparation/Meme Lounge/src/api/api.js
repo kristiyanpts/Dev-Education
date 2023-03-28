@@ -38,7 +38,7 @@ export async function request(method, url, data) {
 
     return result;
   } catch (err) {
-    // alert(err.message);
+    alert(err.message);
     showNotification(err.message);
     throw err;
   }
