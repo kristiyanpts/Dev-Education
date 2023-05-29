@@ -1,21 +1,18 @@
-const uniqid = require("uniqid");
-const { search } = require("../controllers/homeController");
+const Cube = require("../models/Cube");
 
-const cubes = [];
-
-exports.create = (cubeData) => {
-  let newCube = { id: uniqid(), ...cubeData };
-  cubes.push(newCube);
+exports.create = async (cubeData) => {
+  let newCube = new Cube(cubeData);
+  await newCube.save();
   return newCube;
 };
 
-exports.getAll = () => cubes.slice();
+exports.getAll = () => Cube.find();
 
-exports.getCubeById = (cubeId) => cubes.find((c) => c.id === cubeId);
+exports.getCubeById = (cubeId) => Cube.findById(cubeId).populate("accessories");
 
-exports.searchCube = (qstring, fromDiff, toDiff) => {
-  let cubesFound = cubes.slice();
-  if (search) {
+exports.searchCube = async (qstring, fromDiff, toDiff) => {
+  let cubesFound = await this.getAll().lean();
+  if (qstring) {
     cubesFound = cubesFound.filter((c) =>
       c.name.toLowerCase().includes(qstring.toLowerCase())
     );
@@ -30,4 +27,10 @@ exports.searchCube = (qstring, fromDiff, toDiff) => {
   }
 
   return cubesFound;
+};
+
+exports.attachAccessory = async (cubeId, accessoryId) => {
+  return Cube.findByIdAndUpdate(cubeId, {
+    $push: { accessories: accessoryId },
+  });
 };

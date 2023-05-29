@@ -1,13 +1,14 @@
 const router = require("express").Router();
 const cubeManager = require("../managers/cubeManager");
+const accessoryManager = require("../managers/accessoryManager");
 
 router.get("/create", (req, res) => {
   res.render("create");
 });
 
-router.post("/create", (req, res) => {
+router.post("/create", async (req, res) => {
   const { name, description, imageUrl, difficultyLevel } = req.body;
-  cubeManager.create({
+  await cubeManager.create({
     name,
     description,
     imageUrl,
@@ -16,11 +17,27 @@ router.post("/create", (req, res) => {
   res.redirect("/");
 });
 
-router.get("/:cubeId/details", (req, res) => {
+router.get("/:cubeId/details", async (req, res) => {
   let cubeId = req.params.cubeId;
-  let cube = cubeManager.getCubeById(cubeId);
+  let cube = await cubeManager.getCubeById(cubeId).lean();
   if (!cube) res.redirect("/404");
   res.render("details", cube);
+});
+
+router.get("/:cubeId/attach-accessory", async (req, res) => {
+  let cubeId = req.params.cubeId;
+  let cube = await cubeManager.getCubeById(cubeId).lean();
+  let accessories = await accessoryManager.getOthers(cube.accessories).lean();
+  let hasAccessories = accessories.length > 0;
+  if (!cube) res.redirect("/404");
+  res.render("accessory/attach", { cube, accessories, hasAccessories });
+});
+
+router.post("/:cubeId/attach-accessory", async (req, res) => {
+  let accessoryId = req.body.accessory;
+  let cubeId = req.params.cubeId;
+  await cubeManager.attachAccessory(cubeId, accessoryId);
+  res.redirect(`/cubes/${cubeId}/details`);
 });
 
 router.get("/search", (req, res) => {
