@@ -1,9 +1,21 @@
 const router = require("express").Router();
 const cubeManager = require("../managers/cubeManager");
 const accessoryManager = require("../managers/accessoryManager");
+const { generateDifficultyOptionsViewData } = require("../utils/viewHelpers");
+const { isAuth } = require("../middleware/authMiddleware");
+
+router.get("/:cubeId/details", async (req, res) => {
+  let cubeId = req.params.cubeId;
+  let cube = await cubeManager.getCubeById(cubeId).lean();
+  if (!cube) res.redirect("/404");
+  const isOwner = cube.owner == req.user?._id;
+  res.render("cube/details", { cube, isOwner });
+});
+
+router.use(isAuth);
 
 router.get("/create", (req, res) => {
-  res.render("create");
+  res.render("cube/create");
 });
 
 router.post("/create", async (req, res) => {
@@ -13,15 +25,9 @@ router.post("/create", async (req, res) => {
     description,
     imageUrl,
     difficultyLevel: Number(difficultyLevel),
+    owner: req.user._id,
   });
   res.redirect("/");
-});
-
-router.get("/:cubeId/details", async (req, res) => {
-  let cubeId = req.params.cubeId;
-  let cube = await cubeManager.getCubeById(cubeId).lean();
-  if (!cube) res.redirect("/404");
-  res.render("details", cube);
 });
 
 router.get("/:cubeId/attach-accessory", async (req, res) => {
@@ -37,6 +43,37 @@ router.post("/:cubeId/attach-accessory", async (req, res) => {
   let accessoryId = req.body.accessory;
   let cubeId = req.params.cubeId;
   await cubeManager.attachAccessory(cubeId, accessoryId);
+  res.redirect(`/cubes/${cubeId}/details`);
+});
+
+router.get("/:cubeId/delete", async (req, res) => {
+  let cubeId = req.params.cubeId;
+  let cube = await cubeManager.getCubeById(cubeId).lean();
+  const options = generateDifficultyOptionsViewData(cube.difficultyLevel);
+
+  res.render("cube/delete", { cube, options });
+});
+
+router.post("/:cubeId/delete", async (req, res) => {
+  let cubeId = req.params.cubeId;
+  await cubeManager.deleteCubeById(cubeId);
+  res.redirect("/");
+});
+
+router.get("/:cubeId/edit", async (req, res) => {
+  let cubeId = req.params.cubeId;
+  let cube = await cubeManager.getCubeById(cubeId).lean();
+
+  if (cube.owner.toString() !== req.user._id) res.redirect("/404");
+
+  const options = generateDifficultyOptionsViewData(cube.difficultyLevel);
+  res.render("cube/edit", { cube, options });
+});
+
+router.post("/:cubeId/edit", async (req, res) => {
+  let cubeId = req.params.cubeId;
+  let cubeData = req.body;
+  await cubeManager.updateCubeById(cubeId, cubeData);
   res.redirect(`/cubes/${cubeId}/details`);
 });
 

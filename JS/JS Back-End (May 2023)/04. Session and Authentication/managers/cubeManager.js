@@ -10,6 +10,11 @@ exports.getAll = () => Cube.find();
 
 exports.getCubeById = (cubeId) => Cube.findById(cubeId).populate("accessories");
 
+exports.deleteCubeById = (cubeId) => Cube.findByIdAndDelete(cubeId);
+
+exports.updateCubeById = (cubeId, cubeData) =>
+  Cube.findByIdAndUpdate(cubeId, cubeData);
+
 exports.searchCube = async (qstring, fromDiff, toDiff) => {
   let cubesFound = await this.getAll().lean();
   if (qstring) {
