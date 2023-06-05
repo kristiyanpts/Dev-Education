@@ -1,22 +1,18 @@
-const express = require("express");
-const cookieParser = require("cookie-parser");
-const { v4: uuid } = require("uuid");
+const env = process.env.NODE_ENV || "development";
 
-const app = express();
+const config = require("./config/config")[env];
+const app = require("express")();
 
-app.use(cookieParser());
+require("./config/express")(app);
+require("./config/routes")(app);
 
-app.get("/", (req, res) => {
-  let id = uuid();
+require("./config/database")()
+  .then(() => {
+    console.log("DB connection established");
+  })
+  .catch((err) => console.log(`DB Error: ${err}`));
 
-  let userId = req.cookies["userId"];
-  if (userId) {
-    id = userId;
-  } else {
-    res.cookie("userId", id);
-  }
-
-  res.send(`Hello user '${id}'`);
-});
-
-app.listen(3000, () => console.log("Server is listening on port 3000"));
+app.listen(
+  config.port,
+  console.log(`Listening on port ${config.port}! Now its up to you...`)
+);
