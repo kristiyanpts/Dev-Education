@@ -11,7 +11,10 @@ const cubeSchema = new mongoose.Schema({
     minLength: [20, "Description must be at least 20 characters"],
     match: [/^[A-Za-z0-9\s]+$/, "Invalid characters"],
   },
-  imageUrl: String,
+  imageUrl: {
+    type: String,
+    
+  },
   difficultyLevel: Number,
   accessories: [{ type: mongoose.Types.ObjectId, ref: "Accessory" }],
   owner: { type: mongoose.Types.ObjectId, ref: "User" },
