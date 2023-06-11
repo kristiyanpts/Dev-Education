@@ -4,16 +4,23 @@ const jwt = require("jsonwebtoken");
 
 const SECRET = "0q8we908qw90e8asdiopaiosduoiqwe089";
 
-exports.register = async (username, password) => {
-  const exists = await User.findOne({ username }).collation({
+exports.register = async (email, username, password) => {
+  const existsUsername = await User.findOne({ username }).collation({
     locale: "en",
     strength: 2,
   });
-  if (exists) throw new Error("User is taken");
+  if (existsUsername) throw new Error("Username is taken");
+
+  const existsEmail = await User.findOne({ email }).collation({
+    locale: "en",
+    strength: 2,
+  });
+  if (existsEmail)
+    throw new Error("An account with the same email already exists");
 
   password = await bcrypt.hash(password, 10);
 
-  const user = await User.create({ username, password });
+  const user = await User.create({ email, username, password });
 
   //TODO: Check assignment if registration creates user session
   const token = createSession(user);
@@ -21,24 +28,25 @@ exports.register = async (username, password) => {
   return token;
 };
 
-exports.login = async (username, password) => {
-  const user = await User.findOne({ username }).collation({
+exports.login = async (email, password) => {
+  const user = await User.findOne({ email }).collation({
     locale: "en",
     strength: 2,
   });
 
-  if (!user) throw new Error("Incorrect username or password");
+  if (!user) throw new Error("Incorrect email or password");
 
   let isPassCorrect = await bcrypt.compare(password, user.password);
 
-  if (isPassCorrect == false) throw new Error("Incorrect username or password");
+  if (isPassCorrect == false) throw new Error("Incorrect email or password");
 
   return createSession(user);
 };
 
-createSession = ({ _id, username }) => {
+createSession = ({ _id, email, username }) => {
   const payload = {
     _id,
+    email,
     username,
   };
 

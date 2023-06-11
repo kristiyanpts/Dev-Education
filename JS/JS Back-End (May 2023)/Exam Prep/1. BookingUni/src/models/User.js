@@ -2,6 +2,11 @@ const { Schema, model } = require("mongoose");
 
 // TODO: Add user properties and validation according to assignment
 const userSchema = new Schema({
+  email: {
+    type: String,
+    required: true,
+    unique: true,
+  },
   username: {
     type: String,
     required: true,
@@ -9,15 +14,6 @@ const userSchema = new Schema({
     match: [
       /^[A-Za-z0-9]+$/i,
       "Username may only contain english letters and numbers",
-    ],
-  },
-  email: {
-    type: String,
-    required: true,
-    unique: true,
-    match: [
-      /^[A-Za-z0-9]+@[A-Za-z0-9]+\.[A-Za-z]+$/i,
-      "Email may only contain english letters and numbers",
     ],
   },
   password: {

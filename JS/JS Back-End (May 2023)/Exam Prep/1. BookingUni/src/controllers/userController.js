@@ -1,6 +1,7 @@
 const router = require("express").Router();
 const userService = require("../services/userService");
 const { parseError } = require("../utils/parser");
+const validator = require("validator");
 
 router.get("/register", (req, res) => {
   res.render("register");
@@ -8,12 +9,18 @@ router.get("/register", (req, res) => {
 
 router.post("/register", async (req, res) => {
   try {
+    if (validator.isEmail(req.body.email) == false) {
+      throw new Error("Invalid email");
+    }
     if (req.body.username == "" || req.body.password == "")
       throw new Error("All fields are required");
+    if (req.body.password.length < 5)
+      throw new Error("Passwords passwords must be at least 5 characters");
     if (req.body.password != req.body.repass)
       throw new Error("Passwords do not match");
 
     const token = await userService.register(
+      req.body.email,
       req.body.username,
       req.body.password
     );
@@ -27,6 +34,7 @@ router.post("/register", async (req, res) => {
     res.render("register", {
       errors,
       body: {
+        email: req.body.email,
         username: req.body.username,
       },
     });
@@ -43,7 +51,7 @@ router.post("/login", async (req, res) => {
     if (req.body.username == "" || req.body.password == "")
       throw new Error("All fields are required");
 
-    const token = await userService.login(req.body.username, req.body.password);
+    const token = await userService.login(req.body.email, req.body.password);
 
     res.cookie("authToken", token);
     res.redirect("/"); // TODO: Replace with redirect by assignment
@@ -53,7 +61,7 @@ router.post("/login", async (req, res) => {
     res.render("login", {
       errors,
       body: {
-        username: req.body.username,
+        email: req.body.email,
       },
     });
   }
