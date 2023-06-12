@@ -8,4 +8,7 @@ module.exports = (app) => {
   app.use("/auth", userController);
   app.use("/pets", petsController);
   app.use("/profile", profileController);
+  app.get("*", (req, res) => {
+    res.redirect("/404");
+  });
 };

@@ -31,7 +31,7 @@ router.get("/:id/delete", hasUser(), async (req, res) => {
   let photo = await petService.getById(photoId);
 
   if (req.user._id != photo.owner) {
-    res.redirect("/auth/login");
+    res.redirect("/404");
   }
 
   await petService.deleteById(photoId);
@@ -43,7 +43,7 @@ router.get("/:id/edit", hasUser(), async (req, res) => {
   let photo = await petService.getById(photoId);
 
   if (req.user._id != photo.owner) {
-    res.redirect("/auth/login");
+    res.redirect("/404");
   }
 
   res.render("edit", { photo });
@@ -54,7 +54,7 @@ router.post("/:id/edit", hasUser(), async (req, res) => {
   let photo = await petService.getById(photoId);
 
   if (req.user._id != photo.owner) {
-    res.redirect("/auth/login");
+    res.redirect("/404");
   }
 
   let photoData = {
