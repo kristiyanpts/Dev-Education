@@ -4,18 +4,23 @@ const jwt = require("jsonwebtoken");
 
 const SECRET = "0q8we908qw90e8asdiopaiosduoiqwe089";
 
-exports.register = async (username, password) => {
-  const exists = await User.findOne({ username }).collation({
+exports.register = async (username, email, password) => {
+  const existsUsername = await User.findOne({ username }).collation({
     locale: "en",
     strength: 2,
   });
-  if (exists) throw new Error("User is taken");
+  if (existsUsername) throw new Error("Username is taken");
+
+  const existsEmail = await User.findOne({ email }).collation({
+    locale: "en",
+    strength: 2,
+  });
+  if (existsEmail) throw new Error("Email is already registered");
 
   password = await bcrypt.hash(password, 10);
 
-  const user = await User.create({ username, password });
+  const user = await User.create({ username, email, password });
 
-  //TODO: Check assignment if registration creates user session
   const token = createSession(user);
 
   return token;
@@ -36,10 +41,11 @@ exports.login = async (username, password) => {
   return createSession(user);
 };
 
-createSession = ({ _id, username }) => {
+createSession = ({ _id, username, email }) => {
   const payload = {
     _id,
     username,
+    email,
   };
 
   return jwt.sign(payload, SECRET);

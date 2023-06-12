@@ -1,46 +1,48 @@
 const router = require("express").Router();
+const { isGuest, hasUser } = require("../middlewares/guards");
 const userService = require("../services/userService");
 const { parseError } = require("../utils/parser");
 
-router.get("/register", (req, res) => {
-  // TODO: Replace with actual register view
+router.get("/register", isGuest(), (req, res) => {
   res.render("register");
 });
 
-router.post("/register", async (req, res) => {
+router.post("/register", isGuest(), async (req, res) => {
   try {
-    if (req.body.username == "" || req.body.password == "")
+    if (
+      req.body.username == "" ||
+      req.body.password == "" ||
+      req.body.email == ""
+    )
       throw new Error("All fields are required");
     if (req.body.password != req.body.repass)
       throw new Error("Passwords do not match");
 
     const token = await userService.register(
       req.body.username,
+      req.body.email,
       req.body.password
     );
 
-    // TODO: Check assignment to see if register creates session
     res.cookie("authToken", token);
-    res.redirect("/"); // TODO: Replace with redirect by assignment
+    res.redirect("/");
   } catch (error) {
-    console.log(error);
     const errors = parseError(error);
-    // TODO: Add error display to actual template
     res.render("register", {
       errors,
       body: {
         username: req.body.username,
+        email: req.body.email,
       },
     });
   }
 });
 
-router.get("/login", (req, res) => {
-  // TODO: Replace with actual register view
+router.get("/login", isGuest(), (req, res) => {
   res.render("login");
 });
 
-router.post("/login", async (req, res) => {
+router.post("/login", isGuest(), async (req, res) => {
   try {
     if (req.body.username == "" || req.body.password == "")
       throw new Error("All fields are required");
@@ -48,10 +50,9 @@ router.post("/login", async (req, res) => {
     const token = await userService.login(req.body.username, req.body.password);
 
     res.cookie("authToken", token);
-    res.redirect("/"); // TODO: Replace with redirect by assignment
+    res.redirect("/");
   } catch (error) {
     const errors = parseError(error);
-    // TODO: Add error display to actual template
     res.render("login", {
       errors,
       body: {
@@ -61,7 +62,7 @@ router.post("/login", async (req, res) => {
   }
 });
 
-router.get("/logout", (req, res) => {
+router.get("/logout", hasUser(), (req, res) => {
   res.clearCookie("authToken");
   res.redirect("/");
 });
