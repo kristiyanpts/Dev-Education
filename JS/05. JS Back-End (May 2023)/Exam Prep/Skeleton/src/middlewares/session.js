@@ -9,7 +9,7 @@ module.exports = () => (req, res, next) => {
       res.locals.user = userData;
     } catch (error) {
       res.clearCookie("authToken");
-      return res.redirect("/auth/login");
+      res.status(401).render("404");
     }
   }
 
