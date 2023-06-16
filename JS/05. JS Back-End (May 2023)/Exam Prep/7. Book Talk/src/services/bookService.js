@@ -13,18 +13,7 @@ exports.getById = (id) => {
 };
 
 exports.update = async (id, bookData) => {
-  let book = await Book.findById(id);
-
-  book.title = bookData.title;
-  book.author = bookData.author;
-  book.genre = bookData.genre;
-  book.stars = bookData.stars;
-  book.image = bookData.image;
-  book.review = bookData.review;
-  book.owner = bookData.owner;
-  book.wishlist = bookData.wishlist;
-
-  await book.save();
+  return await Book.findByIdAndUpdate(id, bookData, { runValidators: true });
 };
 
 exports.deleteById = async (id) => {
