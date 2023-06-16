@@ -1,9 +1,11 @@
 const router = require("express").Router();
+const adService = require("../services/adService");
 
-// TODO: Replace with real controller
-router.get("/", (req, res) => {
+router.get("/", async (req, res) => {
+  let ads = (await adService.getAll()).slice(0, 3);
   res.render("home", {
     title: "Home Page",
+    ads,
   });
 });
 
