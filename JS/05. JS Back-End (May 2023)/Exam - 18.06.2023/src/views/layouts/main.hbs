@@ -1,21 +1,54 @@
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles/styles.css" />
     <title>{{title}}</title>
   </head>
+
   <body>
-    <a href="/auth/login">Login</a>
-    <a href="/auth/register">Register</a>
-    <a href="/auth/logout">Logout</a>
+
     {{#if errors}}
       <div>
-        {{#each errors}}
-          <p>{{this}}</p>
-        {{/each}}
+        <div class="errorContainer">
+          {{#each errors}}
+            <p>{{this}}</p>
+          {{/each}}
+        </div>
       </div>
     {{/if}}
-    {{{body}}}
+
+    <div id="wrapper">
+      <header>
+        <nav>
+          <div>
+            <a href="/">Home</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/dashboard/search">Search</a>
+          </div>
+
+          {{#if user}}
+            <div class="user">
+              <a href="/dashboard/create">Add Animal</a>
+              <a href="/auth/logout">Logout</a>
+            </div>
+          {{else}}
+            <div class="guest">
+              <a href="/auth/login">Login</a>
+              <a href="/auth/register">Register</a>
+            </div>
+          {{/if}}
+        </nav>
+      </header>
+
+      {{{body}}}
+
+      <footer>
+        <p>@Friendly World</p>
+      </footer>
+    </div>
   </body>
+
 </html>
