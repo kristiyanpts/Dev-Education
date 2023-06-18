@@ -39,6 +39,8 @@ router.post("/create", hasUser(), async (req, res) => {
     if (Object.values(animalData).some((v) => !v)) {
       throw new Error("All fields are required");
     }
+    if (Number.isNaN(Number(animalData.years)))
+      throw new Error("Years must be a number");
 
     await animalService.create(animalData);
     res.redirect("/dashboard");
@@ -121,6 +123,8 @@ router.post("/:animalId/edit", hasUser(), async (req, res) => {
     if (Object.values(animalData).some((v) => !v)) {
       throw new Error("All fields are required");
     }
+    if (Number.isNaN(Number(animalData.years)))
+      throw new Error("Years must be a number");
 
     animalData.donations = animal.donations;
 
