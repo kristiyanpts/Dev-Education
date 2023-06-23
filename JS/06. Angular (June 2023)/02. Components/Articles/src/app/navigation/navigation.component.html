@@ -1,0 +1,16 @@
+<div id="nav">
+  <span *ngIf="isActive">
+    <ul>
+      <li *ngFor="let user of activeUsers">
+        Name: {{ user.name }} | Age: {{ user.age }}
+      </li>
+    </ul>
+  </span>
+  <span *ngIf="!isActive">
+    <div>Nothing is active :(</div>
+  </span>
+  <input [value]="inputValue" [attr.data-id]="12" type="text" />
+  <button (click)="handleClick($event)">
+    Make {{ isActive ? "inactive" : "active" }}
+  </button>
+</div>
