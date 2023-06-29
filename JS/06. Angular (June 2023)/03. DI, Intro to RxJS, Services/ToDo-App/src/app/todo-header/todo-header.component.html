@@ -1,0 +1,13 @@
+<div class="header">
+  <div class="title">Angular To-Do List</div>
+  <div class="input-field">
+    <input
+      #taskInput
+      type="text"
+      name="task"
+      id="task"
+      placeholder="Enter your task here"
+    />
+    <button (click)="addTask(taskInput)">Add Task</button>
+  </div>
+</div>
