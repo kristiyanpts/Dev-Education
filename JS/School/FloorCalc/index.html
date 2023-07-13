@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form-calc">
+        <div class="title">Въведи необходимите данни</div>
+        <div class="input-field">
+          <label for="width">Дължина:</label>
+          <input type="number" name="width" id="width" />
+        </div>
+        <div class="input-field">
+          <label for="length">Ширина:</label>
+          <input type="number" name="length" id="length" />
+        </div>
+        <div class="input-field">
+          <label for="type">Вид:</label>
+          <select name="type" id="type">
+            <option value="royal-cherry">Ламинат 668 Royal Cherry</option>
+            <option value="dab-heyloft">Ламинат K337 Дъб Хейлофт</option>
+            <option value="dab-elegant">Ламинат 5940 Сив Дъб Елегант</option>
+            <option value="dab-skydive">Ламинат K396 Дъб Скайдайв</option>
+            <option value="liberty">Ламинат 7209 Дъб Либърти</option>
+            <option value="buk">Ламинат 5945 Бук</option>
+            <option value="oregon">Ламинат 5529 Орегон</option>
+            <option value="bedrock">Ламинат 5541 Дъб Бедрок</option>
+            <option value="traffic">Ламинат K035 Трафик</option>
+          </select>
+        </div>
+        <button type="submit">Изчисли</button>
+      </form>
+      <div class="output">
+        <div class="title">Резултат</div>
+        <div class="input-field">
+          <label for="area">Площ:</label>
+          <input type="number" name="area" id="area" disabled />
+        </div>
+        <div class="input-field">
+          <label for="price-m">Цена на кв. м. без ДДС:</label>
+          <input type="number" name="price-m" id="price-m" disabled />
+        </div>
+        <div class="input-field">
+          <label for="price-no-tax">Цена без ДДС:</label>
+          <input type="number" name="price-no-tax" id="price-no-tax" disabled />
+        </div>
+        <div class="input-field">
+          <label for="tax">ДДС (20%):</label>
+          <input type="number" name="tax" id="tax" disabled />
+        </div>
+        <div class="input-field">
+          <label for="price-tax">Цена с ДДС:</label>
+          <input type="number" name="price-tax" id="price-tax" disabled />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
