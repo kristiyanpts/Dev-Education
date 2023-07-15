@@ -1,5 +1,5 @@
 <div class="container">
-  <form class="register" action="" method="post">
+  <form class="register" [formGroup]="form" (ngSubmit)="register()">
     <fieldset>
       <h2>Registration Form</h2>
 
@@ -14,6 +14,7 @@
           name="username"
           id="username"
           placeholder="Johny"
+          formControlName="username"
         />
       </p>
       <p class="error">Username is required!</p>
@@ -28,6 +29,7 @@
           name="email"
           id="email"
           placeholder="john.doe@gmail.com"
+          formControlName="email"
         />
       </p>
       <!-- <p class="error">
@@ -45,41 +47,51 @@
         <select name="select-tel" id="select-tel" class="tel">
           <option value="00359">+359</option>
         </select>
-        <input type="text" name="tel" id="tel" placeholder="885 888 888" />
-      </p>
-
-      <!-- password -->
-      <p class="field field-icon">
-        <label for="password"
-          ><span><i class="fas fa-lock"></i></span
-        ></label>
         <input
-          type="password"
-          name="password"
-          id="password"
-          placeholder="******"
+          type="text"
+          name="tel"
+          id="tel"
+          placeholder="885 888 888"
+          formControlName="tel"
         />
       </p>
-      <!-- <p class="error">
-                Password is required!
-            </p>
-            <p class="error">
-                Password must be at least 4 characters!
-            </p> -->
 
-      <!-- rePassword -->
-      <p class="field field-icon">
-        <label for="rePassword"
-          ><span><i class="fas fa-lock"></i></span
-        ></label>
-        <input
-          type="password"
-          name="rePassword"
-          id="rePassword"
-          placeholder="******"
-        />
-      </p>
-      <!-- <p class="error">Repeat Password does not match password!</p> -->
+      <ng-container formGroupName="passGroup">
+        <!-- password -->
+        <p class="field field-icon">
+          <label for="password"
+            ><span><i class="fas fa-lock"></i></span
+          ></label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="******"
+            formControlName="password"
+          />
+        </p>
+        <!-- <p class="error">
+                  Password is required!
+              </p>
+              <p class="error">
+                  Password must be at least 4 characters!
+              </p> -->
+
+        <!-- rePassword -->
+        <p class="field field-icon">
+          <label for="rePassword"
+            ><span><i class="fas fa-lock"></i></span
+          ></label>
+          <input
+            type="password"
+            name="rePassword"
+            id="rePassword"
+            placeholder="******"
+            formControlName="rePassword"
+          />
+        </p>
+        <!-- <p class="error">Repeat Password does not match password!</p> -->
+      </ng-container>
 
       <button disabled>Create Account</button>
 
